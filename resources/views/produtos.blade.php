@@ -23,7 +23,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/madeirite-plastificado1.png" alt="" />
+                                    <img src="/img/madeirite.png" alt="" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Madeirite</h6>
@@ -63,7 +63,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/madeira_serrada.PNG" alt="" />
+                                    <img src="/img/madeira-serrada-2.png" alt="" />
                                 </div>
 
                                 <div class="text-container">
@@ -84,7 +84,7 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/painel_ecowall.PNG" alt="" />
+                                    <img src="/img/painel-wall.png" alt="" />
                                 </div>
                                 <div class="text-container">
                                     <h6>Painel Wall</h6>
@@ -104,4 +104,5 @@
     </div>
 
 </section>
+
 @endsection

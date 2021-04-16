@@ -23,3 +23,8 @@ Route::get('/produtos', function () {
 Route::get('/segmentos', function () {
     return view('segmentos');
 });
+
+Route::get('/produtos/madeirites', function () {
+        return view('madeirites');
+    });
+

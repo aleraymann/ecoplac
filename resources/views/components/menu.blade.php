@@ -18,7 +18,7 @@
                     <div class="dropdown">
                         <a class="dropbtn" href="/produtos">Produtos</a>
                         <div class="dropdown-content">
-                            <a href="#">Madeirites</a>
+                            <a href="/produtos/madeirites">Madeirites</a>
                             <a href="#">Compensados</a>
                             <a href="#">Madeiras Serradas</a>
                             <a href="#">Painel Ecowall</a>

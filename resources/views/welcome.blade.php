@@ -37,10 +37,10 @@
             </div>
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3 grid-produtos">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 grid-produtos">
 
                         <div class="produto-img">
-                            <img src="/img/madeirite-plastificado1.png" alt="Madeirites" class="image">
+                            <img src="/img/madeirite.png" alt="Madeirites" class="image">
                             <label for="" class="nome-produto">Madeirites</label>
                             <div class="overlay">
                                 <label>Placa composta por lâminas de madeira, ideal para arquitetura e fachadas
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 border">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 border">
                         <div class="produto-img">
                             <img src="/img/compensados.png" alt="Compensados" class="image">
                             <label for="" class="nome-produto">Compensados</label>
@@ -60,9 +60,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 border">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 border">
                         <div class="produto-img">
-                            <img src="/img/madeira_serrada.PNG" alt="Madeira-serrada" class="image">
+                            <img src="/img/madeira-serrada-2.png" alt="Madeira-serrada" class="image">
                             <label for="" class="nome-produto">Madeira Serrada</label>
                             <div class="overlay">
                                 <label>Usada em pallets e também na construção civil, a madeira serrada é versátil e
@@ -71,10 +71,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 border">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 border">
 
                         <div class="produto-img">
-                            <img src="/img/painel_ecowall.PNG" alt="painel-ecowall" class="image">
+                            <img src="/img/painel-wall.png" alt="painel-ecowall" class="image">
                             <label for="" class="nome-produto">Painel Ecowall</label>
                             <div class="overlay">
                                 <label>Livre de amianto, a placa cimentícia oferece mais conforto térmico e

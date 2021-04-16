@@ -8,7 +8,7 @@
                     <!--Grid column-->
                     <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                         <div class="logo-footer">
-                            <img src="/img/logo_ecoplac_branco.png" id="logo_branco" alt="logo" />
+                            <img src="/img/logo_ecoplac.png" id="logo_branco" alt="logo" />
                         </div>
                         <p>
                            

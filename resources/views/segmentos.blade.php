@@ -2,12 +2,10 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax4">
-        <div class="title4">Excelência na fabricação de compensados, madeirite, painel wall e madeiras serradas</div>
-        <p class="sub-title3">A Ecoplac oferece uma ampla variedade de produtos, que atendem diversos setores de
-            produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso aparente, na construção
-            civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as mais variadas
-            necessidades do mercado.
-
+        <div class="title4">O tipo de madeira ideal para o seu negócio. Saiba quem nos procura</div>
+        <p class="sub-title3">Nossas madeiras são procuradas por gestores de diversos segmentos. Devido a sua ampla
+            utilização e versatilidade, nossos produtos podem ser usados desde a fabricação de chão e assentos, até a
+            construção de stands em feiras.
         </p>
     </div>
 
@@ -18,81 +16,97 @@
     <div id="cards_landscape_wrap-2">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-6 colmd3 collg3">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/madeirite-plastificado1.png" alt="" />
+                                    <img src="/img/ccivil2.png" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Madeirite</h6>
-                                    <p>Usado principalmente na construção civil, o madeirite é a melhor opção para a
-                                        construção de formas de concreto aparente, oferecendo excelente acabamento. Por
-                                        sua alta resistência e durabilidade, este tipo de compensado também é usado na
-                                        fabricação de lanchas, aeronaves e ônibus, além da construção civil.</p>
-                                   
+                                    <h6>Construção Civil</h6>
+                                    <p>Este é o setor que tem a maior procura por madeiras, em seus diferentes formatos,
+                                        principalmente o Madeirite, que apresenta a sua versão comum e a versão mais
+                                        sofisticada, oferecendo uma maior qualidade aparente e estrutural.
+                                    </p>
+
                                 </div>
                                 <label>Clique e conheça melhor</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-6 colmd3 collg3">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/compensados.png" alt="" />
+                                    <img src="/img/feiras2.png" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Compensados</h6>
-                                    <p>O compensado, que pode ser fabricado por meio de diferentes tipos de madeira, é
-                                        um painel extremamente versátil, que é utilizado para inúmeras finalidades. Além
-                                        da construção civil, o compensado também é amplamente usado no setor naval,
-                                        indústria moveleira, de embalagens, etc.</p>
-                                  
+                                    <h6>Feiras, Eventos e Stands</h6>
+                                    <p>Para a montagem de Stands de Feiras e outros eventos, temos várias opções de
+                                        madeirite e de compensado, que atendem aos mais altos padrões de qualidade,
+                                        oferecendo durabilidade e uma ótima estética.</p>
+
                                 </div>
                                 <label>Clique e conheça melhor</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-6 colmd3 collg3">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/madeira_serrada.PNG" alt="" />
+                                    <img src="/img/embalagens2.png" alt="" />
                                 </div>
 
                                 <div class="text-container">
-                                    <h6>Madeira Serrada</h6>
-                                    <p>As madeiras serradas se dividem em Pontaletes e Ripas. Pelo seu baixo custo e
-                                        pela sua durabilidade, são excelentes escolhas para serem utilizadas
-                                        principalmente na construção civil e na fabricação de pallets, mas também podem
-                                        ser usadas para auxiliar no transporte rodoviário de cargas</p>
-                                  
+                                    <h6>Embalagens</h6>
+                                    <p>Nossa linha de compensados pré-cortados em pinus trazem mais robustez às
+                                        embalagens, oferecendo mais segurança aos produtos embalados por este material.,
+                                        devido a sua grande resistência.
+                                    </p>
+
                                 </div>
                                 <label>Clique e conheça melhor</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-6 colmd3 collg3">
                     <a href="">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="/img/painel_ecowall.PNG" alt="" />
+                                    <img src="/img/moveleiro2.png" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Painel Wall</h6>
-                                    <p>Produzido com a tecnologia do CRFS (Cimento Reforçado com Fio Sintético) e livre
-                                        de amianto, o Painel Wall oferece comportamento elástico e condicionamento
-                                        térmico natural, que resultam em mais conforto, tanto térmico quanto acústico. O
-                                        Painel Wall é uma alternativa com um melhor custo benefício ao Dry Wall.</p>
-                                    
+                                    <h6>Moveleiro</h6>
+                                    <p>Na fabricação de móveis, o compensado é a escolha ideal para garantir uma maior
+                                        durabilidade e resistência na fabricação da mobília, por um custo baixo.
+                                        Conheças as opções mais indicadas para a indústria moveleira.</p>
+                                </div>
+                                <label>Clique e conheça melhor</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 colmd3 collg3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/pallets2.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Pallets</h6>
+                                    <p>Embora os Pallets sejam muito utilizados para facilitar o empilhamento de
+                                        produtos no transporte rodoviário e na exportação de produtos leves e pesados,
+                                        este material tem sido empregado na fabricação de móveis rústicos e na decoração
+                                        de casas.</p>
                                 </div>
                                 <label>Clique e conheça melhor</p>
                             </div>
