@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
+                    <a href="/produtos/madeirites">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -33,13 +33,13 @@
                                         fabricação de lanchas, aeronaves e ônibus, além da construção civil.</p>
                                    
                                 </div>
-                                <label>Clique e conheça melhor</p>
+                                <label>Clique e conheça melhor</label>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
+                    <a href="/produtos/compensados">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -53,13 +53,13 @@
                                         indústria moveleira, de embalagens, etc.</p>
                                   
                                 </div>
-                                <label>Clique e conheça melhor</p>
+                                <label>Clique e conheça melhor</label>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
+                    <a href="/produtos/madeiras-serradas">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -74,7 +74,7 @@
                                         ser usadas para auxiliar no transporte rodoviário de cargas</p>
                                   
                                 </div>
-                                <label>Clique e conheça melhor</p>
+                                <label>Clique e conheça melhor</label>
                             </div>
                         </div>
                     </a>
@@ -94,7 +94,7 @@
                                         Painel Wall é uma alternativa com um melhor custo benefício ao Dry Wall.</p>
                                     
                                 </div>
-                                <label>Clique e conheça melhor</p>
+                                <label>Clique e conheça melhor</label>
                             </div>
                         </div>
                     </a>

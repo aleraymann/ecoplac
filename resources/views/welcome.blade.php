@@ -45,7 +45,7 @@
                             <div class="overlay">
                                 <label>Placa composta por lâminas de madeira, ideal para arquitetura e fachadas
                                     visíveis.</label>
-                                <label><a class="saiba" href="">Saiba Mais</a></label>
+                                <label><a class="saiba" href="/produtos/madeirites">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             <div class="overlay">
                                 <label> Usado para os mais diversos fins, desde a fabricação de móveis até a construção
                                     civil.</label>
-                                <label><a class="saiba" href="">Saiba Mais</a></label>
+                                <label><a class="saiba" href="/produtos/compensados">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                             <div class="overlay">
                                 <label>Usada em pallets e também na construção civil, a madeira serrada é versátil e
                                     resistente.</label>
-                                <label><a class="saiba" href="">Saiba Mais</a></label>
+                                <label><a class="saiba" href="/produtos/madeiras-serradas">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>

@@ -25,6 +25,12 @@ Route::get('/segmentos', function () {
 });
 
 Route::get('/produtos/madeirites', function () {
-        return view('madeirites');
-    });
+     return view('madeirites');
+});
 
+Route::get('/produtos/compensados', function () {
+    return view('compensados');
+});
+Route::get('/produtos/madeiras-serradas', function () {
+    return view('madeiras-serradas');
+});
