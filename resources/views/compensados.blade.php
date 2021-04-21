@@ -40,7 +40,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-industrial.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos"
+                                        href="{{ route('c.industrial') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -80,7 +81,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-pinus.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{ route('c.embalagem') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -119,7 +120,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-parica.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{ route('c.moveleiro-parica') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -134,9 +135,47 @@
                                     <p>04mm, 06mm, 08mm, 10mm, 12mm, 15mm, 18mm, 20mm, 25mm e 30mm.</p>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <label class="especificacoes_produto"> Colagem:</label>
+                                    <label class="especificacoes_produto"> Colagem:</label>
                                     <p>Cola Branca com Resina MR-Reutilizável e com resina fenólica WBP 100% resistente
                                         à água (WBP – weather and boil proof)</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#eucalipto" aria-expanded="false" aria-controls="eucalipto">
+                            Compensado Eucalipto
+                        </a>
+                    </h4>
+                </div>
+                <div id="eucalipto" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <img src="/img/compen-eucalipto.png" alt="" />
+                                <label><a class="saiba_produtos" href="{{ route('c.eucalipto') }}">Saiba Mais</a></label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+                                <label class="descricao_produto">
+                                    O Compensado Eucalipto é ideal para fechamento de obras e formas de concreto não
+                                    aparente (à prova d’água).
+                                </label>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <label class="especificacoes_produto"> Medidas:</label>
+                                    <p> 2440×1220, 2200×1600 e 2500×1600mm. </p>
+                                    <label for=""> Espessuras: </label>
+                                    <p>04mm, 06mm, 08mm, 10mm, 12mm, 15mm, 18mm, 20mm, 25mm e 30mm.</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <label class="especificacoes_produto"> Colagem:</label>
+                                    <p>Cola Branca com Resina MR-Reutilizável e com resina fenólica WBP 100% resistente
+                                        à água (WBP – wheather and boil proof).</p>
                                 </div>
                             </div>
 

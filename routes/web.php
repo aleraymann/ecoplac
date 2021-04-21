@@ -26,11 +26,49 @@ Route::get('/segmentos', function () {
 
 Route::get('/produtos/madeirites', function () {
      return view('madeirites');
-});
+})->name('madeirite');
+
+Route::get('/produtos/madeirites/madeirite-plastificado', function () {
+    return view('madeirite-plastificado');
+})->name('m.plastificado');
+
+Route::get('/produtos/madeirites/madeirite-plastificado-antiderrapante', function () {
+    return view('madeirite-plastificado-antiderrapante');
+})->name('mp.antiderrapante');
+Route::get('/produtos/madeirites/madeirite-plastificado-extra', function () {
+    return view('madeirite-plastificado-extra');
+})->name('mp.extra');
+
+Route::get('/produtos/madeirites/madeirite-resinado-wbp', function () {
+    return view('madeirite-resinado-wbp');
+})->name('m.resinado-wbp');
+Route::get('/produtos/madeirites/madeirite-resinado-mr', function () {
+    return view('madeirite-resinado-mr');
+})->name('m.resinado-mr');
 
 Route::get('/produtos/compensados', function () {
     return view('compensados');
-});
+})->name('compensados');
+
+Route::get('/produtos/compensados/pinus-industrial', function () {
+    return view('compensado-industrial');
+})->name('c.industrial');
+
+Route::get('/produtos/compensados/pinus-embalagem', function () {
+    return view('compensado-embalagem');
+})->name('c.embalagem');
+
+Route::get('/produtos/compensados/moveleiro-parica', function () {
+    return view('compensado-moveleiro-parica');
+})->name('c.moveleiro-parica');
+
+Route::get('/produtos/compensados/eucalipto', function () {
+    return view('compensado-eucalipto');
+})->name('c.eucalipto');
+
 Route::get('/produtos/madeiras-serradas', function () {
     return view('madeiras-serradas');
+});
+Route::get('/produtos/painel-ecowall', function () {
+    return view('painel-ecowall');
 });

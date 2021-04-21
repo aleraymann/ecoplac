@@ -18,10 +18,10 @@
                     <div class="dropdown">
                         <a class="dropbtn" href="/produtos">Produtos</a>
                         <div class="dropdown-content">
-                            <a href="/produtos/madeirites">Madeirites</a>
-                            <a href="/produtos/compensados">Compensados</a>
+                            <a href="{{route('madeirite')}}">Madeirites</a>
+                            <a href="{{route('compensados')}}">Compensados</a>
                             <a href="/produtos/madeiras-serradas">Madeiras Serradas</a>
-                            <a href="#">Painel Ecowall</a>
+                            <a href="/produtos/painel-ecowall">Painel Ecowall</a>
 
                         </div>
                     </div>

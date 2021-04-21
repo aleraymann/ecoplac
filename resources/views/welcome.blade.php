@@ -45,7 +45,7 @@
                             <div class="overlay">
                                 <label>Placa composta por lâminas de madeira, ideal para arquitetura e fachadas
                                     visíveis.</label>
-                                <label><a class="saiba" href="/produtos/madeirites">Saiba Mais</a></label>
+                                <label><a class="saiba" href="{{route('madeirite')}}">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             <div class="overlay">
                                 <label> Usado para os mais diversos fins, desde a fabricação de móveis até a construção
                                     civil.</label>
-                                <label><a class="saiba" href="/produtos/compensados">Saiba Mais</a></label>
+                                <label><a class="saiba" href="{{route('compensados')}}">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                             <div class="overlay">
                                 <label>Livre de amianto, a placa cimentícia oferece mais conforto térmico e
                                     acústico.</label>
-                                <label><a class="saiba" href="">Saiba Mais</a></label>
+                                <label><a class="saiba" href="/produtos/painel-ecowall">Saiba Mais</a></label>
                             </div>
                         </div>
                     </div>

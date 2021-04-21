@@ -156,13 +156,13 @@ section.content{
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	font-size: 40px;
+	font-size: 35px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 0;
 	height: 0;
-	padding: 35px;
+	padding: 30px;
 	text-decoration: none;
 	border-radius: 50%;
 	animation-name: pulse;
@@ -172,7 +172,7 @@ section.content{
 }
 
 .btn-whatsapp-pulse-border {
-	bottom: 50px;
+	bottom: 20px;
 	right: 20px;
 	animation-play-state: paused;
 }
@@ -348,6 +348,22 @@ a.dropbtn{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax_sugestoes {
+    background-image: url('/img/taboa-fundo.jpg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_claro {
+    background-image: url('/img/background-claro.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .grid-produtos {
     z-index: 0;
@@ -500,6 +516,8 @@ a.dropbtn{
     text-align: center;
     font-size: 1.5rem;
     color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .sub-title3 {
     text-align: center;
@@ -511,8 +529,28 @@ a.dropbtn{
     margin-left: auto;
     margin-right: auto;
 }
+.sub-title4 {
+    text-align: left;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: black;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .sub-title_produtos {
     text-align: left;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-title_produtos2 {
+    text-align: center;
     font-size: 1.7rem;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -557,8 +595,9 @@ footer{
     background-color: rgb(228, 227, 227);
 }
 .logo-footer img{
-    width: 180px;
-    height: 90px;
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
 }
 .links-footer{
     text-align: left;
@@ -615,6 +654,11 @@ footer{
   #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
     padding: 20px 15px;
     height: 310px;
+  }
+
+  .text-container-especificacoes{
+    padding: 20px 15px;
+      height: 180px;
   }
   #cards_landscape_wrap-2 .card-flyer{
     background: #FFFFFF;
@@ -734,4 +778,27 @@ footer{
   }
 .accordion{
     min-height: 150px;
+}
+
+.sugestoes{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    }
+
+.sugestoes li{
+    list-style-type: none;
+    }
+
+.sugestoes a{
+color: white;
+list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.list-unstyled{
+    font-size: 12px;
 }

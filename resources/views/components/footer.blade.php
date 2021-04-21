@@ -26,9 +26,40 @@
                             </li>
                             <li>
                                 <a href="#!" class="text-dark">Produtos</a>
+                                <ul>
+                                    <li>
+                                    <a href="{{route('madeirite')}}">Madeirites</a>
+                                    </li>
+                                    <li>
+                                    <a href="{{route('compensados')}}">Compensados</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Madeiras Serradas</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Painel Ecowall</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#!" class="text-dark">Segmentos</a>
+                                <ul>
+                                    <li>
+                                    <a href="">Construção Civil</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Feiras / Eventos / Stands</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Embalagem</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Moveleiros </a>
+                                    </li>
+                                    <li>
+                                    <a href="">Pallets </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>

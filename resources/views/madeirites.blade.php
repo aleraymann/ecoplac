@@ -39,7 +39,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/madeirite-plastificado1.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{route('m.plastificado')}}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -79,7 +79,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/madeirite-antiderrapante.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{route('mp.antiderrapante')}}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -122,8 +122,8 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <img src="" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                            <img src="/img/madeirite-plastificado1.png" alt="" />
+                                <label><a class="saiba_produtos" href="{{route('mp.extra')}}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -166,7 +166,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/madeirite-resinado-wbp.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{route('m.resinado-wbp')}}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -209,7 +209,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/madeirite-resinado-mr.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{route('m.resinado-mr')}}">Saiba Mais</a></label>
                               
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">

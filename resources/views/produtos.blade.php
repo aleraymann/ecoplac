@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="/produtos/madeirites">
+                    <a href="{{route('madeirite')}}">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -39,7 +39,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="/produtos/compensados">
+                    <a href="{{route('compensados')}}">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -80,7 +80,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
+                    <a href="/produtos/painel-ecowall">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
