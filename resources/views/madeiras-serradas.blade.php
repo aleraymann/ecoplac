@@ -2,27 +2,33 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
-        <div class="title_produtos">Conheça as Madeiras Serradas Ecoplac</div>
-        <p class="sub-title_produtos">As madeiras serradas são produtos que possuem as mais variadas possibilidades de
-            aplicação, estas são madeiras duráveis e resistentes, que podem ser utilizadas desde a construção de casas,
-            até a decoração.
-        </p>
-        <p class="sub-title_produtos">Todas as madeiras serradas são oriundas de reflorestamento, portanto, são de
-            origem limpa e sustentável.</p>
+        <div class="conteudo">
+            <div class="title_produtos">Conheça as Madeiras Serradas Ecoplac</div>
+            <p class="sub-title_produtos">As madeiras serradas são produtos que possuem as mais variadas possibilidades
+                de
+                aplicação, estas são madeiras duráveis e resistentes, que podem ser utilizadas desde a construção de
+                casas,
+                até a decoração.
+            </p>
+            <p class="sub-title_produtos">Todas as madeiras serradas são oriundas de reflorestamento, portanto, são de
+                origem limpa e sustentável.</p>
 
-        <div class="title_produtos_2">Onde as Madeiras Serradas podem ser usadas</div>
-        <p class="sub-title_produtos">As madeiras serradas são ótimas opções para escoramento de lajes e também auxiliam
-            no empilhamento de produtos para transporte.
-        </p>
-        <p class="sub-title_produtos">Além disso, as madeiras serradas têm tido muita procura por entusiastas e
-            profissionais de decoração para a confecção de pallets, que se popularizaram na fabricação de móveis
-            rústicos.
-        </p>
+            <div class="title_produtos_2">Onde as Madeiras Serradas podem ser usadas</div>
+            <p class="sub-title_produtos">As madeiras serradas são ótimas opções para escoramento de lajes e também
+                auxiliam
+                no empilhamento de produtos para transporte.
+            </p>
+            <p class="sub-title_produtos">Além disso, as madeiras serradas têm tido muita procura por entusiastas e
+                profissionais de decoração para a confecção de pallets, que se popularizaram na fabricação de móveis
+                rústicos.
+            </p>
+        </div>
     </div>
 
 </section>
 
 <section class="content">
+<div class="conteudo">
     <div class="title">Conheça nossa linha de Madeiras Serradas</div>
     <div class="container accordion">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -41,7 +47,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/pontalete.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos"
+                                        href="{{ route('ms.pontalete') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -79,7 +86,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/ripa.png" alt="" />
-                                <label><a class="saiba_produtos" href="">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos" href="{{ route('ms.ripa') }}">Saiba
+                                        Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -95,7 +103,7 @@
                                     <p>10mm, 15mm, 20mm, 25mm, 30mm.</p>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <label class="especificacoes_produto"> Ideal para:</label>
+                                    <label class="especificacoes_produto"> Ideal para:</label>
                                     <p>– Construção Civil.</p>
                                     <p>– Empilhamento de produtos para transporte.</p>
                                 </div>
@@ -107,6 +115,7 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 @endsection
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

@@ -2,26 +2,32 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
-        <div class="title_produtos">O que é o Compensado de Madeira</div>
-        <p class="sub-title_produtos">O compensado é um painel composto por fibras ou laminados de madeira sobrepostas
-            em número ímpar de camadas, colados sob forte pressão. Este material é resistente, e por sua homogeneidade,
-            oferece excelente acabamento da construção de móveis e embalagens.
-        </p>
-        <p class="sub-title_produtos">O compensado é indicado tanto para uso interior, com adesivo uréia-formaldeído e,
-            como de uso exterior ou à
-            prova d’água, com colagem à base de fenol-formaldeído.</p>
+        <div class="conteudo">
+            <div class="title_produtos">O que é o Compensado de Madeira</div>
+            <p class="sub-title_produtos">O compensado é um painel composto por fibras ou laminados de madeira
+                sobrepostas
+                em número ímpar de camadas, colados sob forte pressão. Este material é resistente, e por sua
+                homogeneidade,
+                oferece excelente acabamento da construção de móveis e embalagens.
+            </p>
+            <p class="sub-title_produtos">O compensado é indicado tanto para uso interior, com adesivo uréia-formaldeído
+                e,
+                como de uso exterior ou à
+                prova d’água, com colagem à base de fenol-formaldeído.</p>
 
-        <div class="title_produtos_2">Onde o Compensado pode ser usado</div>
-        <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil, na construção de
-            O compensado é um material multifuncional, e pode ser usado em diversos setores, como: construção civil,
-            indústria naval, indústria moveleira, embalagens, etc.
-
-        </p>
+            <div class="title_produtos_2">Onde o Compensado pode ser usado</div>
+            <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil, na
+                construção de
+                O compensado é um material multifuncional, e pode ser usado em diversos setores, como: construção civil,
+                indústria naval, indústria moveleira, embalagens, etc.
+            </p>
+        </div>
     </div>
 
 </section>
 
 <section class="content">
+<div class="conteudo">
     <div class="title">Conheça nossos tipos de Compensados</div>
     <div class="container">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -81,7 +87,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-pinus.png" alt="" />
-                                <label><a class="saiba_produtos" href="{{ route('c.embalagem') }}">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos"
+                                        href="{{ route('c.embalagem') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -120,7 +127,9 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-parica.png" alt="" />
-                                <label><a class="saiba_produtos" href="{{ route('c.moveleiro-parica') }}">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos"
+                                        href="{{ route('c.moveleiro-parica') }}">Saiba
+                                        Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -159,7 +168,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <img src="/img/compen-eucalipto.png" alt="" />
-                                <label><a class="saiba_produtos" href="{{ route('c.eucalipto') }}">Saiba Mais</a></label>
+                                <label><a class="saiba_produtos"
+                                        href="{{ route('c.eucalipto') }}">Saiba Mais</a></label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                 <label class="descricao_produto">
@@ -185,6 +195,7 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 @endsection
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

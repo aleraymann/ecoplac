@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Compensado Pinus Embalagem</div>
         <p class="sub-title_produtos">O Compensado Pinus Embalagem é um painel de madeira prensada, cujas as faces do
             compensado não recebem acabamento, tornando o produto mais em conta.
@@ -25,7 +26,7 @@
 
         </p>
     </div>
-
+</div>
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -74,6 +75,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Compensado Pinus Embalagem</b>
         </div>
@@ -102,7 +104,8 @@
             pinus embalagem oferece um custo mais baixo, mesmo oferecendo grande resistência.
 
         </p>
-
+</div>
+</div>
 </section>
 
 <section class="content">

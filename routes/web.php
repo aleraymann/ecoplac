@@ -68,7 +68,17 @@ Route::get('/produtos/compensados/eucalipto', function () {
 
 Route::get('/produtos/madeiras-serradas', function () {
     return view('madeiras-serradas');
-});
+})->name('madeiras-serradas');
+Route::get('/produtos/madeiras-serradas/pontalete', function () {
+    return view('madeira-serrada-pontalete');
+})->name('ms.pontalete');
+Route::get('/produtos/madeiras-serradas/ripa', function () {
+    return view('madeira-serrada-ripa');
+})->name('ms.ripa');
+
 Route::get('/produtos/painel-ecowall', function () {
     return view('painel-ecowall');
-});
+})->name('ecowall');;
+Route::get('/produtos/painel-ecowall/comparativo-ecowall-drywall', function () {
+    return view('comparativo-ecowall');
+})->name('ecowall-drywall');;

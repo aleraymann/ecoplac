@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Compensado Eucalipto</div>
         <p class="sub-title_produtos">O Compensado Eucalipto é um painel multilaminado e prensado sob altas
             temperaturas, compactando as camadas de lâminas de eucalipto.
@@ -20,7 +21,7 @@
             peça resistente à água.
         </p>
     </div>
-
+</div>
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -69,6 +70,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Compensado Eucalipto</b>
         </div>
@@ -90,7 +92,8 @@
             manuseio e também a logística para transportá-lo
 
         </p>
-
+</div>
+</div>
 </section>
 
 <section class="content">

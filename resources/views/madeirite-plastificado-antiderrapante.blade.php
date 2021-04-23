@@ -2,27 +2,32 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
-        <div class="title_produtos">O que é o Madeirite Plastificado Antiderrapante</div>
-        <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de lâminas de madeira,
-            colado com resina fenólica WBP 100% à prova d’água e revestido com filme fenólico, que garantem mais
-            durabilidade e uma maior qualidade. As bordas são seladas evitando a absorção de água e garantindo uma maior
-            durabilidade ao painel.
-        </p>
-        <p class="sub-title_produtos">O diferencial do Madeirite Plastificado Antiderrapante está no fato de que uma ou
-            as duas faces do laminado recebem o tratamento antiderrapante, que oferece um grau superior de segurança.
-        </p>
-        <div class="title_produtos_2">Onde o Madeirite Plastificado Antiderrapante é utilizado </div>
-        <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado Antiderrapante é
-            utilizado em pisos no geral, como: carrocerias, containers, trailers, pisos de eventos e arquibancadas, e
-            também na Construção Civil.
-        </p>
-        <p class="sub-title_produtos">No entanto, a maior procura por este tipo de material é para construção de
-            estruturas para eventos, pois ao aplicar o tratamento antiderrapante nas duas faces do laminado, há o
-            aumento da vida útil do material, oferecendo assim um maior lucro à empresa locadora de estruturas.
+        <div class="conteudo">
+            <div class="title_produtos">O que é o Madeirite Plastificado Antiderrapante</div>
+            <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de lâminas de madeira,
+                colado com resina fenólica WBP 100% à prova d’água e revestido com filme fenólico, que garantem mais
+                durabilidade e uma maior qualidade. As bordas são seladas evitando a absorção de água e garantindo uma
+                maior
+                durabilidade ao painel.
+            </p>
+            <p class="sub-title_produtos">O diferencial do Madeirite Plastificado Antiderrapante está no fato de que uma
+                ou
+                as duas faces do laminado recebem o tratamento antiderrapante, que oferece um grau superior de
+                segurança.
+            </p>
+            <div class="title_produtos_2">Onde o Madeirite Plastificado Antiderrapante é utilizado </div>
+            <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado Antiderrapante é
+                utilizado em pisos no geral, como: carrocerias, containers, trailers, pisos de eventos e arquibancadas,
+                e
+                também na Construção Civil.
+            </p>
+            <p class="sub-title_produtos">No entanto, a maior procura por este tipo de material é para construção de
+                estruturas para eventos, pois ao aplicar o tratamento antiderrapante nas duas faces do laminado, há o
+                aumento da vida útil do material, oferecendo assim um maior lucro à empresa locadora de estruturas.
 
-        </p>
+            </p>
+        </div>
     </div>
-
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -71,36 +76,45 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
-        <div class="title">
-            <b> Vantagens do Madeirite Plastificado</b>
+        
+        <div class="conteudo">
+            <div class="title">
+                <b> Vantagens do Madeirite Plastificado</b>
+            </div>
+            <p class="sub-title4">
+                <b>A prova d'água:</b> a camada antiderrapante, juntamente com a cola aplicada nas laterais, aumentam
+                ainda
+                mais a resistência do material
+
+            </p>
+            <p class="sub-title4">
+                <b>Diminuição dos riscos de acidentes: </b> o material antiderrapante protege contra deslizes, trazendo
+                mais
+                segurança, mesmo sob umidade
+            </p>
+            <p class="sub-title4">
+                <b>Maior durabilidade:</b> maior proteção externa prolonga a durabilidade do material. Se aplicada a
+                camada
+                antiderrapante nas duas faces, após o desgaste de uma delas, ainda é possível utilizar a outra.
+
+            </p>
+            <p class="sub-title4">
+                <b>Personalização:</b> a quantidade de lâminas internas pode ser modificada, conforme a necessidade do
+                cliente.
+            </p>
+            <p class="sub-title4">
+                <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições
+                climáticas
+                interfiram
+                na sua qualidade e durabilidade
+            </p>
+            <p class="sub-title4">
+                <b> Estética: </b>pela sua boa aparência de fábrica, o madeirite plastificado dispensa o verniz e pode
+                ser
+                usado mesmo de forma aparente
+            </p>
         </div>
-        <p class="sub-title4">
-            <b>A prova d'água:</b> a camada antiderrapante, juntamente com a cola aplicada nas laterais, aumentam ainda
-            mais a resistência do material
-
-        </p>
-        <p class="sub-title4">
-            <b>Diminuição dos riscos de acidentes: </b> o material antiderrapante protege contra deslizes, trazendo mais
-            segurança, mesmo sob umidade
-        </p>
-        <p class="sub-title4">
-            <b>Maior durabilidade:</b> maior proteção externa prolonga a durabilidade do material. Se aplicada a camada
-            antiderrapante nas duas faces, após o desgaste de uma delas, ainda é possível utilizar a outra.
-
-        </p>
-        <p class="sub-title4">
-            <b>Personalização:</b> a quantidade de lâminas internas pode ser modificada, conforme a necessidade do
-            cliente.
-        </p>
-        <p class="sub-title4">
-            <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições climáticas
-            interfiram
-            na sua qualidade e durabilidade
-        </p>
-        <p class="sub-title4">
-            <b> Estética: </b>pela sua boa aparência de fábrica, o madeirite plastificado dispensa o verniz e pode ser
-            usado mesmo de forma aparente
-        </p>
+    </div>
 </section>
 
 <section class="content">
@@ -167,8 +181,8 @@
     <div class="parallax_sugestoes">
         <div class="title_produtos">Você também pode se interessar por</div>
         <ul class="sugestoes">
-            <li><a href="{{route('m.plastificado')}}">Madeirite Plastificado</a></li>
-            <li><a href="{{route('mp.extra')}}">Madeirite Plastificado Extra</a></li>
+            <li><a href="{{ route('m.plastificado') }}">Madeirite Plastificado</a></li>
+            <li><a href="{{ route('mp.extra') }}">Madeirite Plastificado Extra</a></li>
             <li><a href="{{route('m.resinado-wbp')}">Madeirite Resinado (WBP)</a></li>
             <li><a href="{{route('m.resinado-mr')}">Madeirite Resinado MR</a></li>
         </ul>

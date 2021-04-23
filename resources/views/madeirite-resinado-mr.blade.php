@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Madeirite Resinado MR (Cola Branca)</div>
         <p class="sub-title_produtos">O Madeirite Resinado MR são chapas compostas por lâminas de madeira sobrepostas em
             camadas, coladas com resina MR reutilizável PARMACOL UF 1408, que é uma cola à base de uréia e formol,
@@ -25,7 +26,7 @@
             repartições, revestimentos, embalagens, caixas, tapumes, fôrmas de concreto não aparentes, entre outros.
         </p>
     </div>
-
+</div>
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -74,6 +75,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Madeirite Resinado MR</b>
         </div>
@@ -91,6 +93,8 @@
                 manuseio e também a logística para transportá-lo.
 
             </p>
+</div>
+</div>
 
 </section>
 

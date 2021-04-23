@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Compensado Moveleiro Virola Paricá</div>
         <p class="sub-title_produtos">A virola é uma madeira cuja característica principal é a ausência de nós,
             oferecendo uma superfície lisa. Por este motivo, ela é usada principalmente na capa e contracapa da chapa de
@@ -27,6 +28,7 @@
 
         </p>
     </div>
+</div>
 
 </section>
 <section class="content">
@@ -76,6 +78,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Compensado Moveleiro Virola Paricá</b>
         </div>
@@ -97,7 +100,8 @@
             <b>Estética:</b> ela sua estrutura lisa, sem formação de nós, o compensado virola paricá oportuniza um acabamento mais homogêneo
 
         </p>
-
+</div>
+</div>
 </section>
 
 <section class="content">

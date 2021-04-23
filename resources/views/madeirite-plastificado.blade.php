@@ -67,7 +67,9 @@
     </div>
 </section>
 <section class="content">
+
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Madeirite Plastificado</b>
         </div>
@@ -92,6 +94,8 @@
             <b> Estética: </b>pela sua boa aparência de fábrica, o madeirite plastificado dispensa o verniz e pode ser
             usado mesmo de forma aparente
         </p>
+</div>
+</div>
 </section>
 
 <section class="content">

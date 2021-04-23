@@ -169,6 +169,7 @@ section.content{
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
+    z-index: 1000;
 }
 
 .btn-whatsapp-pulse-border {
@@ -307,7 +308,7 @@ a.dropbtn{
 
 .parallax {
     background-image: url('/img/background.jpg');
-    min-height: 500px;
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -324,7 +325,7 @@ a.dropbtn{
 
 .parallax3 {
     background-image: url('/img/mapa-fundo.jpg');
-    min-height: 500px;
+    min-height: 200px;
 
     background-attachment: fixed;
     background-position: center;
@@ -342,7 +343,7 @@ a.dropbtn{
 }
 .parallax_madeirite {
     background-image: url('/img/madeirite_fundo.jpg');
-    min-height: 500px;
+    min-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -358,7 +359,7 @@ a.dropbtn{
 }
 .parallax_claro {
     background-image: url('/img/background-claro.jpg');
-    min-height: 500px;
+    min-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -382,13 +383,14 @@ a.dropbtn{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    height: 180px;
 }
 
 .image {
     display: block;
     width: 200px;
     border-radius: 5px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 50%);
 }
 
 .saiba {
@@ -422,6 +424,7 @@ a.dropbtn{
 
 .produto-img:hover .overlay {
     opacity: 1;
+    
 }
 
 
@@ -456,7 +459,6 @@ a.dropbtn{
 .title {
     text-align: center;
     font-size: 20px;
-    padding-top: 80px;
     margin-bottom: 40px;
     color: black;
 }
@@ -489,18 +491,20 @@ a.dropbtn{
     text-align: center;
     font-size: 20px;
     padding-top: 90px;
-    margin-bottom: 15px;
+  
     color: white;
 }
 .title_produtos_2 {
     text-align: center;
     font-size: 20px;
     padding-top: 40px;
-    margin-bottom: 15px;
+   padding-bottom: 10px;
     color: white;
 }
 
-
+.conteudo{
+    padding: 20px 0;
+}
 
 .sub-title {
     text-align: center;
@@ -540,10 +544,8 @@ a.dropbtn{
     margin-right: auto;
 }
 .sub-title_produtos {
-    text-align: left;
+    text-align: center;
     font-size: 1.7rem;
-    margin-top: 10px;
-    margin-bottom: 0px;
     color: white;
     width: 65%;
     margin-left: auto;
@@ -653,12 +655,16 @@ footer{
   }
   #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
     padding: 20px 15px;
-    height: 310px;
+    min-height: 290px;
+  }
+  .text-container-segmentos{
+    padding: 20px 15px;
+      min-height: 200px;
   }
 
   .text-container-especificacoes{
     padding: 20px 15px;
-      height: 180px;
+      min-height: 180px;
   }
   #cards_landscape_wrap-2 .card-flyer{
     background: #FFFFFF;

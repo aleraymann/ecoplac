@@ -59,7 +59,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="/produtos/madeiras-serradas">
+                    <a href="{{route('madeiras-serradas')}}">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
@@ -80,7 +80,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="/produtos/painel-ecowall">
+                    <a href="{{route('ecowall')}}">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">

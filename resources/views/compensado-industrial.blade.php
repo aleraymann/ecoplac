@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Compensado Industrial</div>
         <p class="sub-title_produtos">O Compensado Pinus Industrial é um painel multilaminado, sobreposto em número
             ímpar de camadas. Este material possui grande versatilidade no que se refere à sua composição, podendo ser
@@ -23,7 +24,7 @@
 
         </p>
     </div>
-
+</div>
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -72,6 +73,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
+    <div class="conteudo">
         <div class="title">
             <b> Vantagens do Compensado Industrial</b>
         </div>
@@ -92,7 +94,8 @@
             e também a logística para transportá-lo
 
         </p>
-
+</div>
+</div>
 </section>
 
 <section class="content">

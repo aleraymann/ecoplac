@@ -2,6 +2,7 @@
 @section('conteudo')
 <section class="content">
     <div class="parallax_madeirite">
+    <div class="conteudo">
         <div class="title_produtos">O que é o Madeirite Plastificado Extra</div>
         <p class="sub-title_produtos">O madeirite plastificado extra, semelhante ao madeirite plastificado convencional,
             é a chapa multilaminada, que é prensada com resina fenólica , e recebe uma capa de película, ou papel
@@ -20,7 +21,7 @@
             proteção e muito mais.
         </p>
     </div>
-
+</div>
 </section>
 <section class="content">
     <!-- Topic Cards -->
@@ -69,30 +70,37 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
-        <div class="title">
-            <b> Vantagens do Madeirite Plastificado Extra</b>
+        <div class="conteudo">
+            <div class="title">
+                <b> Vantagens do Madeirite Plastificado Extra</b>
+            </div>
+            <<p class="sub-title4">
+                <b>Versatilidade:</b> você pode utilizar o madeirite plastificado extra mais de uma vez em diferentes
+                funções
+                </p>
+                <p class="sub-title4">
+                    <b>Reciclagem: </b> o madeirite plastificado pode ser utilizado até 18 vezes nas duas faces
+                </p>
+                <p class="sub-title4">
+                    <b>Custo-benefício:</b> em comparação com as formas de alumínio, o madeirite plastificado extra
+                    apresenta mais economia
+
+                </p>
+                <p class="sub-title4">
+                    <b>Facilidade:</b> este material oferece uma maior capacidade de manuseio e de transporte
+
+                </p>
+                <p class="sub-title4">
+                    <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições
+                    climáticas interfiram na sua qualidade e durabilidade
+                </p>
+                <p class="sub-title4">
+                    <b> Estética: </b> pela sua boa aparência de fábrica, o madeirite plastificado extra dispensa o
+                    verniz e pode ser usado mesmo de forma aparente, dando um acabamento homogêneo à obra
+
+                </p>
         </div>
-        <<p class="sub-title4">
-            <b>Versatilidade:</b> você pode utilizar o madeirite plastificado extra mais de uma vez em diferentes funções
-        </p>
-        <p class="sub-title4">
-            <b>Reciclagem: </b> o madeirite plastificado pode ser utilizado até 18 vezes nas duas faces
-        </p>
-        <p class="sub-title4">
-            <b>Custo-benefício:</b> em comparação com as formas de alumínio, o madeirite plastificado extra apresenta mais economia
-
-        </p>
-        <p class="sub-title4">
-            <b>Facilidade:</b> este material oferece uma maior capacidade de manuseio e de transporte
-
-        </p>
-        <p class="sub-title4">
-            <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições climáticas interfiram na sua qualidade e durabilidade
-        </p>
-        <p class="sub-title4">
-            <b> Estética: </b> pela sua boa aparência de fábrica, o madeirite plastificado extra dispensa o verniz e pode ser usado mesmo de forma aparente, dando um acabamento homogêneo à obra
-
-        </p>
+    </div>
 </section>
 
 <section class="content">
@@ -160,9 +168,10 @@
         <div class="title_produtos">Você também pode se interessar por</div>
         <ul class="sugestoes">
             <li><a href="{{ route('m.plastificado') }}">Madeirite Plastificado</a></li>
-            <li><a href="{{route('mp.antiderrapante')}}">Madeirite Plastificado Antiderrapante</a></li>
-            <li><a href="{{route('m.resinado-wbp')}">Madeirite Resinado (WBP)</a></li>
-            <li><a href="{{route('m.resinado-mr')}">Madeirite Resinado MR</a></li>
+            <li><a href="{{ route('mp.antiderrapante') }}">Madeirite Plastificado Antiderrapante</a>
+            </li>
+            <li><a href="{{route('m.resinado-wbp')}}">Madeirite Resinado (WBP)</a></li>
+            <li><a href="{{route('m.resinado-mr')}}">Madeirite Resinado MR</a></li>
         </ul>
     </div>
     <p class="sub-title2"> Fale com nossos especialistas e esclareça todas as suas dúvidas sobre o Madeirite

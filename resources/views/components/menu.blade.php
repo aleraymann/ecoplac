@@ -20,7 +20,7 @@
                         <div class="dropdown-content">
                             <a href="{{route('madeirite')}}">Madeirites</a>
                             <a href="{{route('compensados')}}">Compensados</a>
-                            <a href="/produtos/madeiras-serradas">Madeiras Serradas</a>
+                            <a href="{{route('madeiras-serradas')}}">Madeiras Serradas</a>
                             <a href="/produtos/painel-ecowall">Painel Ecowall</a>
 
                         </div>
@@ -43,7 +43,7 @@
             </ul>
         </nav>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=5542998410088&text=Olá%21%20Vim%20pelo%20seu%20site."
+     <a href="https://api.whatsapp.com/send?phone=5542998410088&text=Olá%21%20Vim%20pelo%20seu%20site."
         target="_blank"class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
 	<i class="fab fa-whatsapp"></i>
 </a>
