@@ -19,10 +19,10 @@ Route::get('/', function () {
 
 Route::get('/produtos', function () {
     return view('produtos');
-});
+})->name('produtos');
 Route::get('/segmentos', function () {
     return view('segmentos');
-});
+})->name('segmentos');
 
 Route::get('/produtos/madeirites', function () {
      return view('madeirites');

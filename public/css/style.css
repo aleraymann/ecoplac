@@ -20,14 +20,17 @@ nav.black{
     background: rgb(255, 255, 255);
     height: 80px;
     padding: 10px 50px;
+        -webkit-box-shadow:0px 4px 10px #1b1b1b ;
+        -moz-box-shadow:0px 4px 10px #1b1b1b ;
+        box-shadow: 0px 4px 10px #1b1b1b !important;
 }
 nav .logo{
     float: left;
 }
 nav .logo img{
-    height: 70px;
+    height: 60px;
     transition: .5s;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 nav.black .logo img{
     height: 60px;
@@ -92,7 +95,7 @@ section.content{
     .responsive-bar .menu h4{
         float: right;
         color:#262626;
-        margin: 0;
+        margin: 15px auto;
         padding: 0;
         line-height: 50px;
         cursor: pointer;
@@ -106,7 +109,9 @@ section.content{
     background:rgba(247, 247, 247);
     height: 60px;
     padding: 0;
+   
     }
+    
     nav .logo{
         display: none;
     }
@@ -316,7 +321,7 @@ a.dropbtn{
 }
 .parallax2 {
     background-image: url('/img/floresta.jpg');
-    min-height: 500px;
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -335,15 +340,15 @@ a.dropbtn{
 
 .parallax4 {
     background-image: url('/img/background.jpg');
-    min-height: 500px;
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax_madeirite {
-    background-image: url('/img/madeirite_fundo.jpg');
-    min-height: 300px;
+    background-image: url('/img/madeirite_original.jpg');
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -351,7 +356,7 @@ a.dropbtn{
 }
 .parallax_sugestoes {
     background-image: url('/img/taboa-fundo.jpg');
-    min-height: 300px;
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -359,7 +364,15 @@ a.dropbtn{
 }
 .parallax_claro {
     background-image: url('/img/background-claro.jpg');
-    min-height: 300px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_paisagem {
+    background-image: url('/img/paisagem.jpg');
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -467,7 +480,6 @@ a.dropbtn{
 .title2 {
     text-align: center;
     font-size: 3rem;
-    padding-top: 80px;
     margin-bottom: 10px;
     color: white;
     text-transform: uppercase;
@@ -476,7 +488,6 @@ a.dropbtn{
 .title3 {
     text-align: center;
     font-size: 1.8rem;
-    padding-top: 30px;
     margin-bottom: 10px;
     color: black;
 }
@@ -488,11 +499,7 @@ a.dropbtn{
     color: black;
 }
 .title_produtos {
-    text-align: center;
-    font-size: 20px;
-    padding-top: 90px;
-  
-    color: white;
+    color: rgb(92, 92, 92);
 }
 .title_produtos_2 {
     text-align: center;
@@ -503,9 +510,22 @@ a.dropbtn{
 }
 
 .conteudo{
-    padding: 20px 0;
+    padding: 40px 0;
 }
-
+.conteudo_card{
+   display: block;
+   position: relative;
+   margin: auto;
+}
+.btn-ecoplac{
+    background-color: rgba(117, 84, 60, 0.644);
+    text-transform: uppercase;
+    color: white;
+}
+.btn-ecoplac:hover{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    color: white;
+}
 .sub-title {
     text-align: center;
     font-size: 2rem;
@@ -527,7 +547,7 @@ a.dropbtn{
     text-align: center;
     font-size: 2rem;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     color: black;
     width: 65%;
     margin-left: auto;
@@ -545,22 +565,13 @@ a.dropbtn{
 }
 .sub-title_produtos {
     text-align: center;
-    font-size: 1.7rem;
-    color: white;
-    width: 65%;
+    font-size: 1.3rem;
+    color: black;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2px;
 }
-.sub-title_produtos2 {
-    text-align: center;
-    font-size: 1.7rem;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: white;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .logo-sust{
     display: block;
     position: relative;
@@ -616,16 +627,13 @@ footer{
     text-align: center;
     background: #F7F7F7;
   }
-  #cards_landscape_wrap-2 .container{
-    padding-top: 80px; 
-    padding-bottom: 100px;
-  }
   #cards_landscape_wrap-2 a{
     text-decoration: none;
     outline: none;
   }
   #cards_landscape_wrap-2 .card-flyer {
     border-radius: 5px;
+    margin-top: -10px !important;
   }
   #cards_landscape_wrap-2 .card-flyer .image-box{
     background: #ffffff;
@@ -657,6 +665,7 @@ footer{
     padding: 20px 15px;
     min-height: 290px;
   }
+ 
   .text-container-segmentos{
     padding: 20px 15px;
       min-height: 200px;
@@ -807,4 +816,187 @@ li{
 
 .list-unstyled{
     font-size: 12px;
+}
+
+
+/* card o que é*/
+
+:root {
+  --html-color: #e0e0e0;
+  --css-color: #57c424;
+  --js-color: #5e60ce;
+  --light: white;
+  --light-grey: rgba(255, 255, 255, 0.7);
+  --dark: #050505;
+  --header: #dbdbdb;
+  --bg: #f0f0f0;
+  --text: var(--dark);
+  --text-hover: var(--text);
+  --slide: cubic-bezier(0.59, 0.01, 0.48, 1);
+  --mode-hover: #203297;
+}
+
+
+.main-section {
+  transform: translateX(0px);
+  display: block;
+}
+
+.courses {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.course {
+  margin-top: 20px;
+  display: flex;
+  width: 70%;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+.course.card1{
+    height: 180px;
+}
+
+.course-info {
+  width: 100%;
+  height: 100%;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: width 550ms var(--slide);
+}
+
+.course.card1 .course-info {
+  background: var(--html-color);
+}
+
+
+.course:hover .course-info,
+.course:focus-within .course-info {
+  width: 100%;
+}
+
+
+.course-info h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto;
+}
+
+
+.course-more {
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transform: translateX(100%);
+  transition: transform 550ms var(--slide);
+}
+
+.course:hover .course-more,
+.course:focus-within .course-more {
+  transform: translateX(0);
+  
+}
+
+@media screen and (max-width: 950px) {
+  .course {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .course-more {
+    width: 100%;
+  }
+  
+  .course:hover .course-info {
+    width: 100%;
+  }
+
+}
+.wrap {
+	width: 70%;
+	min-height: 100px;
+	justify-content: center;
+	align-items: center;
+    padding-right: 15px;
+    padding-left: 170px;
+    margin: 20px auto;
+}
+.cardBox {
+	perspective: 500px;
+	transition: transform 0.9s ease;
+}
+.cardBox:hover .card {
+	transform: rotateY(180deg);
+}
+.card {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	background: rgb(143, 128, 97);
+	transform-style: preserve-3d;
+	transition: 0.5s ease;
+	box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+   
+}
+
+.card-front,
+.card-back {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 100px;
+	color: rgb(255, 255, 255);
+	backface-visibility: hidden;
+}
+.card-front {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.fa {transform: initial;}
+.card-back {
+    background-color: white;
+	transform: rotateY(180deg);
+   
+}
+
+.img-card{
+    width: 150px;
+    height: 100px;
+  
 }

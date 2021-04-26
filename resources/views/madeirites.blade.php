@@ -1,24 +1,54 @@
 @extends('layouts.app')
 @section('conteudo')
+
+<section class="content">
+    <div class="item">
+        <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
+    </div>
+</section>
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="title_produtos">O que é o Madeirite</div>
-            <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem diversos
-                setores de
-                produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso aparente, na construção
-                civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as mais variadas
-                necessidades do mercado.
-            </p>
-            <div class="title_produtos_2">Onde o Madeirite pode ser usado</div>
-            <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil, na
-                construção de
-                formas de concreto aparente, como em lajes, vigas e pilares, que exigem um acabamento uniforme, e até
-                mesmo
-                na vedação provisória de obras.
-                O madeirite também é muito utilizado na fabricação de chão e bancos de lanchas, barcos, ônibus e até
-                aeronaves.
-            </p>
+            <div class="courses ">
+                <div class="course card1" tabindex="1">
+                    <div class="course-info">
+                        <h5 class="title_produtos">O que é o Madeirite?</h5>
+                    </div>
+                    <div class="course-more">
+                    <div class="conteudo_card">
+                        <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem
+                            diversos
+                            setores de
+                            produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso aparente, na
+                            construção
+                            civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as
+                            mais variadas
+                            necessidades do mercado.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="course card1" tabindex="1">
+                    <div class="course-info">
+                        <h5 class="title_produtos">Onde o Madeirite pode ser usado?</h5>
+                    </div>
+                    <div class="course-more">
+                    <div class="conteudo_card">
+                        <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil,
+                            na
+                            construção de
+                            formas de concreto aparente, como em lajes, vigas e pilares, que exigem um acabamento
+                            uniforme, e até
+                            mesmo
+                            na vedação provisória de obras.
+                            O madeirite também é muito utilizado na fabricação de chão e bancos de lanchas, barcos,
+                            ônibus e até
+                            aeronaves.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -51,7 +81,8 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                     <label class="descricao_produto">
-                                        O Madeirite Plastificado é recomendado para formas de concreto aparente,
+                                        O Madeirite Plastificado é recomendado para formas de concreto
+                                        aparente,
                                         divisórias,
                                         alojamentos temporários, entre outros.
                                     </label>
@@ -94,8 +125,10 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                     <label class="descricao_produto">
-                                        O Madeirite Antiderrapante é utilizado para pisos em geral, como carrocerias,
-                                        trailers, pisos de eventos e arquibancadas, bem como na Construção Civil.
+                                        O Madeirite Antiderrapante é utilizado para pisos em geral, como
+                                        carrocerias,
+                                        trailers, pisos de eventos e arquibancadas, bem como na Construção
+                                        Civil.
 
                                     </label>
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -140,9 +173,11 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                     <label class="descricao_produto">
-                                        Recomendado para fôrmas de concreto aparente, divisórias, alojamentos
+                                        Recomendado para fôrmas de concreto aparente, divisórias,
+                                        alojamentos
                                         temporários,
-                                        entre outros. Conta com uma camada extra de tego filme, que oportuniza um maior
+                                        entre outros. Conta com uma camada extra de tego filme, que
+                                        oportuniza um maior
                                         número de reutilizações.
 
                                     </label>
@@ -150,14 +185,16 @@
                                         <label class="especificacoes_produto"> Medidas:</label>
                                         <p> 2200x1100mm e 24400 x 12200mm. </p>
                                         <label for=""> Espessuras: </label>
-                                        <p>12mm, 15mm, 18mm e 20mm. Outras bitolas possíveis sob consulta.</p>
+                                        <p>12mm, 15mm, 18mm e 20mm. Outras bitolas possíveis sob consulta.
+                                        </p>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <label class="especificacoes_produto"> Ideal para:</label>
                                         <p>– Formas de Concreto não aparentes.</p>
                                         <p>– Construção de alojamento temporário </p>
                                         <p>– Bandejas de Proteção</p>
-                                        <p>– Canteiros de obras e outras diversas situações onde podem haver o contato
+                                        <p>– Canteiros de obras e outras diversas situações onde podem haver
+                                            o contato
                                             com
                                             umidade</p>
                                     </div>
@@ -188,7 +225,8 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                     <label class="descricao_produto">
-                                        Recomendado para fôrmas de concreto não aparentes, construção de alojamentos
+                                        Recomendado para fôrmas de concreto não aparentes, construção de
+                                        alojamentos
                                         temporários, bandejas de proteção, lajes, tapumes, embalagens, etc.
 
                                     </label>
@@ -196,7 +234,8 @@
                                         <label class="especificacoes_produto"> Medidas:</label>
                                         <p> 2200x1100mm e 24400 x 12200mm. </p>
                                         <label for=""> Espessuras: </label>
-                                        <p>04mm, 05mm, 06mm, 09mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm, 17mm, 18mm, 20mm
+                                        <p>04mm, 05mm, 06mm, 09mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm, 17mm,
+                                            18mm, 20mm
                                             e
                                             25mm. Outras bitolas possíveis sob consulta.</p>
                                     </div>
@@ -205,7 +244,8 @@
                                         <p>– Formas de Concreto não aparentes.</p>
                                         <p>– Construção de alojamento temporário </p>
                                         <p>– Bandejas de Proteção</p>
-                                        <p>– Canteiros de obras e outras diversas situações onde podem haver o contato
+                                        <p>– Canteiros de obras e outras diversas situações onde podem haver
+                                            o contato
                                             com
                                             umidade</p>
                                     </div>
@@ -230,21 +270,25 @@
                                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                     <img src="/img/madeirite-resinado-mr.png" alt="" />
                                     <label><a class="saiba_produtos"
-                                            href="{{ route('m.resinado-mr') }}">Saiba Mais</a></label>
+                                            href="{{ route('m.resinado-mr') }}">Saiba
+                                            Mais</a></label>
 
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
                                     <label class="descricao_produto">
-                                        Recomendado para uso interno ou utilizações rápidas em fôrmas de concreto,
+                                        Recomendado para uso interno ou utilizações rápidas em fôrmas de
+                                        concreto,
                                         tapumes,
-                                        barracões, bandejas, divisórias, alojamentos temporários, entre outros.
+                                        barracões, bandejas, divisórias, alojamentos temporários, entre
+                                        outros.
 
                                     </label>
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <label class="especificacoes_produto"> Medidas:</label>
                                         <p> 2200x1100mm e 24400 x 12200mm. </p>
                                         <label for=""> Espessuras: </label>
-                                        <p>04mm, 05mm, 06mm, 09mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm, 17mm, 18mm, 20mm
+                                        <p>04mm, 05mm, 06mm, 09mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm, 17mm,
+                                            18mm, 20mm
                                             e
                                             25mm. Outras bitolas possíveis sob consulta.</p>
                                     </div>
@@ -253,7 +297,8 @@
                                         <p>– Formas de Concreto não aparentes.</p>
                                         <p>– Construção de alojamento temporário </p>
                                         <p>– Bandejas de Proteção</p>
-                                        <p>– Canteiros de obras e outras diversas situações onde podem haver o contato
+                                        <p>– Canteiros de obras e outras diversas situações onde podem haver
+                                            o contato
                                             com
                                             umidade</p>
                                     </div>

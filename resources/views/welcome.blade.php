@@ -17,14 +17,14 @@
             </div>
 
             <div class="item">
-                <img src="/img/ecoplac_banner_eco.jpg" alt="Chicago" style="width:100%;">
+                <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
             </div>
 
             <div class="item">
-                <img src="/img/ecoplac_banner_madeiras_1.jpg" alt="New york" style="width:100%;">
+                <img src="/img/ecoplac_banner_madeiras_1.jpg" alt="" style="width:100%;">
             </div>
             <div class="item">
-                <img src="/img/ecoplac_banner_madeiras_2.jpg" alt="New york" style="width:100%;">
+                <img src="/img/ecoplac_banner_madeiras_2.jpg" alt="" style="width:100%;">
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
     </div>
 </section>
 <section class="content">
-    <div class="parallax">
+    <div class="parallax_claro">
         <div class="conteudo">
             <p class="sub-title3">Atuando no setor madeireiro desde 2004, a Ecoplac é autoridade no ramo de compensados
                 e
@@ -103,19 +103,15 @@
                 veículos próprios, garantindo a segurança no armazenamento e na logística dos produtos.
             </p>
             <p class="sub-title3">
-                <a href="">Conheça a Ecoplac</a>
+            <a type="button" class="btn btn-ecoplac btn-lg">Conheça a Ecoplac</a>
             </p>
         </div>
     </div>
 </section>
-<section class="content">
-    <div class="parallax3">
-        <div class="conteudo">
-        </div>
-    </div>
-</section>
+
 <section class="content">
     <div class="parallax2">
+    <div class="conteudo">
         <div class="title2">Sustentabilidade</div>
         <img src="/img/eco-sustentabilidade.png" class="logo-sust" alt="">
         <p class="sub-title">A Ecoplac utiliza 100% madeira de reflorestamento, cumprindo o seu papel com a
@@ -128,12 +124,14 @@
             a continuidade dos recursos naturais do nosso país, e a qualidade de vida das futuras gerações.
         </p>
     </div>
+</div>
 </section>
 <section class="content">
+<div class="conteudo">
     <div class="title3">Links Úteis</div>
     <p class="sub-title2">Tenha acesso às melhores opções de financiamento para adquirir nossos produtos.</p>
     <img src="/img/links-uteis.png" alt="" class="img-links">
-
+<div>
 </section>
 
 @endsection

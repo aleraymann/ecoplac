@@ -1,71 +1,108 @@
 @extends('layouts.app')
 @section('conteudo')
+section class="content">
+<section class="content">
+<div class="item">
+    <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
+</div>
+</section>
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="title_produtos">O que é o Madeirite Plastificado Antiderrapante</div>
-            <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de lâminas de madeira,
-                colado com resina fenólica WBP 100% à prova d’água e revestido com filme fenólico, que garantem mais
-                durabilidade e uma maior qualidade. As bordas são seladas evitando a absorção de água e garantindo uma
-                maior
-                durabilidade ao painel.
-            </p>
-            <p class="sub-title_produtos">O diferencial do Madeirite Plastificado Antiderrapante está no fato de que uma
-                ou
-                as duas faces do laminado recebem o tratamento antiderrapante, que oferece um grau superior de
-                segurança.
-            </p>
-            <div class="title_produtos_2">Onde o Madeirite Plastificado Antiderrapante é utilizado </div>
-            <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado Antiderrapante é
-                utilizado em pisos no geral, como: carrocerias, containers, trailers, pisos de eventos e arquibancadas,
-                e
-                também na Construção Civil.
-            </p>
-            <p class="sub-title_produtos">No entanto, a maior procura por este tipo de material é para construção de
-                estruturas para eventos, pois ao aplicar o tratamento antiderrapante nas duas faces do laminado, há o
-                aumento da vida útil do material, oferecendo assim um maior lucro à empresa locadora de estruturas.
+            <div class="courses ">
+                <div class="course card1" tabindex="1">
+                    <div class="course-info">
+                        <h5 class="title_produtos">O que é o Madeirite Plastificado Antiderrapante?</h5>
+                    </div>
+                    <div class="course-more">
+                        <div class="conteudo_card">
+                            <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de
+                                lâminas de madeira,
+                                colado com resina fenólica WBP 100% à prova d’água e revestido com filme fenólico, que
+                                garantem mais
+                                durabilidade e uma maior qualidade. As bordas são seladas evitando a absorção de água e
+                                garantindo uma
+                                maior
+                                durabilidade ao painel.
+                            </p>
+                            <p class="sub-title_produtos">O diferencial do Madeirite Plastificado Antiderrapante está no
+                                fato de que uma
+                                ou
+                                as duas faces do laminado recebem o tratamento antiderrapante, que oferece um grau
+                                superior de
+                                segurança.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course card1" tabindex="1">
+                    <div class="course-info">
+                        <h5 class="title_produtos">Onde o Madeirite Plastificado Antiderrapante é utilizado?</h5>
+                    </div>
+                    <div class="course-more">
+                        <div class="conteudo_card">
+                            <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado
+                                Antiderrapante é
+                                utilizado em pisos no geral, como: carrocerias, containers, trailers, pisos de eventos e
+                                arquibancadas,
+                                e
+                                também na Construção Civil.
+                            </p>
+                            <p class="sub-title_produtos">No entanto, a maior procura por este tipo de material é para
+                                construção de
+                                estruturas para eventos, pois ao aplicar o tratamento antiderrapante nas duas faces do
+                                laminado, há o
+                                aumento da vida útil do material, oferecendo assim um maior lucro à empresa locadora de
+                                estruturas.
 
-            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 <section class="content">
     <!-- Topic Cards -->
     <div id="cards_landscape_wrap-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/antiderrapante/t-4.png" alt="" />
+        <div class="conteudo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/antiderrapante/t-4.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/antiderrapante/t-3.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/antiderrapante/t-3.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/antiderrapante/t-5.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/antiderrapante/t-5.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/antiderrapante/t-6.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/antiderrapante/t-6.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,7 +113,7 @@
 </section>
 <section class="content">
     <div class="parallax_claro">
-        
+
         <div class="conteudo">
             <div class="title">
                 <b> Vantagens do Madeirite Plastificado</b>
@@ -119,6 +156,7 @@
 
 <section class="content">
     <div id="cards_landscape_wrap-2">
+        <div class="conteudo">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -172,20 +210,61 @@
                         </div>
                     </div>
                 </div>
-
+                </div>
             </div>
         </div>
     </div>
 </section>
 <section class="content">
     <div class="parallax_sugestoes">
-        <div class="title_produtos">Você também pode se interessar por</div>
-        <ul class="sugestoes">
-            <li><a href="{{ route('m.plastificado') }}">Madeirite Plastificado</a></li>
-            <li><a href="{{ route('mp.extra') }}">Madeirite Plastificado Extra</a></li>
-            <li><a href="{{route('m.resinado-wbp')}">Madeirite Resinado (WBP)</a></li>
-            <li><a href="{{route('m.resinado-mr')}">Madeirite Resinado MR</a></li>
-        </ul>
+    <div class="conteudo">
+            <div class="sub-title">Você também pode se interessar por</div>
+            <div class="wrap">
+                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="{{ route('m.plastificado') }}">
+                        <div class="card ">
+                            <div class="card-front ">
+                                Madeirite Plastificado
+                            </div>
+                            <div class="card-back">
+                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="{{ route('mp.extra') }}">
+                        <div class="card ">
+                            <div class="card-front ">Madeirite Plastificado Extra</div>
+                            <div class="card-back">
+                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
+                            </div>
+                        </div>
+                        </a>
+                </div>
+                
+                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="{{ route('m.resinado-wbp') }}">
+                        <div class="card ">
+                            <div class="card-front ">Madeirite Resinado (WBP)</div>
+                            <div class="card-back">
+                                <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card ">
+                        <a href="{{ route('m.resinado-mr') }}">
+                            <div class="card-front ">Madeirite Resinado MR</div>
+                            <div class="card-back">
+                                <img class="img-card" src="/img/madeirite-resinado-mr.png" alt="" />
+                            </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <p class="sub-title2"> Fale com nossos especialistas e esclareça todas as suas dúvidas sobre o Madeirite Plastificado, e solicite um orçamento.</p>
 </section>

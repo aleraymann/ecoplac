@@ -1,7 +1,7 @@
 <div class="menu-bloco">
         <div class="responsive-bar">
             <div class="logo">
-                <img src="/img/logo.jpeg" alt="logo" />
+                <a href="/"><img src="/img/logo.jpeg" alt="logo" /></a>
             </div>
             <div class="menu">
                 <h4><i class="fas fa-bars"></i></h4>
@@ -9,15 +9,15 @@
         </div>
         <nav>
             <div class="logo">
-                <img src="/img/logo_ecoplac_branco.png" id="logo_branco" alt="logo" />
-                <img src="/img/logo_menu.png" hidden id="logo" alt="logo" />
+                <a href="/"><img src="/img/logo_ecoplac_branco.png" id="logo_branco" alt="logo" /></a>
+                <a href="/"><img src="/img/logo_menu.png" hidden id="logo" alt="logo" /></a>
             </div>
             <ul>
-                <li><a href="/">Home</a></li>
                 <li>
                     <div class="dropdown">
-                        <a class="dropbtn" href="/produtos">Produtos</a>
+                        <a class="dropbtn">Produtos</a>
                         <div class="dropdown-content">
+                            <a href="{{route('produtos')}}">Todos os Produtos</a>
                             <a href="{{route('madeirite')}}">Madeirites</a>
                             <a href="{{route('compensados')}}">Compensados</a>
                             <a href="{{route('madeiras-serradas')}}">Madeiras Serradas</a>
@@ -28,8 +28,9 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a class="dropbtn" href="/segmentos">Segmentos</a>
+                        <a class="dropbtn">Segmentos</a>
                         <div class="dropdown-content">
+                        <a href="{{route('segmentos')}}">Todos os Segmentos</a>
                             <a href="#">Construção Civil</a>
                             <a href="#">Feiras/Eventos/Stands</a>
                             <a href="#">Embalagens</a>
