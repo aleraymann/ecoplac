@@ -8,44 +8,47 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Compensado de Madeira?</h5>
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Compensado de Madeira?</p>
                     </div>
-                    <div class="course-more">
-                    <div class="conteudo_card">
-                        <p class="sub-title_produtos">O compensado é um painel composto por fibras ou laminados de
-                            madeira
-                            sobrepostas
-                            em número ímpar de camadas, colados sob forte pressão. Este material é resistente, e por sua
-                            homogeneidade,
-                            oferece excelente acabamento da construção de móveis e embalagens.
-                        </p>
-                        <p class="sub-title_produtos">O compensado é indicado tanto para uso interior, com adesivo
-                            uréia-formaldeído
-                            e,
-                            como de uso exterior ou à
-                            prova d’água, com colagem à base de fenol-formaldeído.</p>
+                    <div class="back-segmentos">
+                        <div>
+                            <p class="sub-title_produtos">O compensado é um painel composto por fibras ou laminados de
+                                madeira
+                                sobrepostas
+                                em número ímpar de camadas, colados sob forte pressão. Este material é resistente, e por
+                                sua
+                                homogeneidade,
+                                oferece excelente acabamento da construção de móveis e embalagens.
+                            </p>
+                            <p class="sub-title_produtos">O compensado é indicado tanto para uso interior, com adesivo
+                                uréia-formaldeído
+                                e,
+                                como de uso exterior ou à
+                                prova d’água, com colagem à base de fenol-formaldeído.</p>
+                        </div>
                     </div>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Compensado pode ser usado?</p>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Compensado pode ser usado?</h5>
+                    <div class="back-segmentos">
+                        <div>
+                            <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção
+                                civil,
+                                na
+                                construção de
+                                O compensado é um material multifuncional, e pode ser usado em diversos setores, como:
+                                construção civil,
+                                indústria naval, indústria moveleira, embalagens, etc.
+                            </p>
+                        </div>
+
                     </div>
-                    <div class="course-more">
-                    <div class="conteudo_card">
-                    <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil,
-                            na
-                            construção de
-                            O compensado é um material multifuncional, e pode ser usado em diversos setores, como:
-                            construção civil,
-                            indústria naval, indústria moveleira, embalagens, etc.
-                        </p>
-                    </div>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

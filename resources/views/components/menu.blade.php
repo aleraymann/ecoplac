@@ -21,7 +21,7 @@
                             <a href="{{route('madeirite')}}">Madeirites</a>
                             <a href="{{route('compensados')}}">Compensados</a>
                             <a href="{{route('madeiras-serradas')}}">Madeiras Serradas</a>
-                            <a href="/produtos/painel-ecowall">Painel Ecowall</a>
+                            <a href="{{route('ecowall')}}">Painel Ecowall</a>
 
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                         <a class="dropbtn">Segmentos</a>
                         <div class="dropdown-content">
                         <a href="{{route('segmentos')}}">Todos os Segmentos</a>
-                            <a href="#">Construção Civil</a>
+                            <a href="{{route('s.ccvil')}}">Construção Civil</a>
                             <a href="#">Feiras/Eventos/Stands</a>
                             <a href="#">Embalagens</a>
                             <a href="#">Moveleiros</a>

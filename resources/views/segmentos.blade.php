@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <a href="">
+                        <a href="{{route('s.ccvil')}}">
                             <div class="card-flyer">
                                 <div class="text-box">
                                     <div class="image-box">

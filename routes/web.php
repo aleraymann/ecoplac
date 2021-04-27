@@ -17,12 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
+
 Route::get('/produtos', function () {
     return view('produtos');
 })->name('produtos');
-Route::get('/segmentos', function () {
-    return view('segmentos');
-})->name('segmentos');
 
 Route::get('/produtos/madeirites', function () {
      return view('madeirites');
@@ -78,7 +79,16 @@ Route::get('/produtos/madeiras-serradas/ripa', function () {
 
 Route::get('/produtos/painel-ecowall', function () {
     return view('painel-ecowall');
-})->name('ecowall');;
+})->name('ecowall');
 Route::get('/produtos/painel-ecowall/comparativo-ecowall-drywall', function () {
     return view('comparativo-ecowall');
-})->name('ecowall-drywall');;
+})->name('ecowall-drywall');
+
+
+
+Route::get('/segmentos', function () {
+    return view('segmentos');
+})->name('segmentos');
+Route::get('/segmentos/construcao-civil', function () {
+    return view('construcao_civil');
+})->name('s.ccvil');

@@ -40,10 +40,10 @@
                             <a href="{{ route('ecowall') }}">Painel Ecowall</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Segmentos</a>
+                            <a href="{{route('segmentos')}}" class="text-dark">Segmentos</a>
                         </li>
                         <li>
-                            <a href="">Construção Civil</a>
+                            <a href="{{route('s.ccvil')}}">Construção Civil</a>
                         </li>
                         <li>
                             <a href="">Feiras / Eventos / Stands</a>
