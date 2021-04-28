@@ -32,8 +32,8 @@
                         <div class="dropdown-content">
                         <a href="{{route('segmentos')}}">Todos os Segmentos</a>
                             <a href="{{route('s.ccvil')}}">Construção Civil</a>
-                            <a href="#">Feiras/Eventos/Stands</a>
-                            <a href="#">Embalagens</a>
+                            <a href="{{route('s.feiras-eventos')}}">Feiras/Eventos/Stands</a>
+                            <a href="{{route('s.embalagens')}}">Embalagens</a>
                             <a href="#">Moveleiros</a>
                             <a href="#">Pallets</a>
                         </div>

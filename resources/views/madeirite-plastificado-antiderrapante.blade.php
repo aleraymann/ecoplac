@@ -9,14 +9,14 @@ section class="content">
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Madeirite Plastificado Antiderrapante?</h5>
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Madeirite Plastificado Antiderrapante?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O madeirite plastificado antiderrapante é um composto de
                                 lâminas de madeira,
                                 colado com resina fenólica WBP 100% à prova d’água e revestido com filme fenólico, que
                                 garantem mais
@@ -34,14 +34,14 @@ section class="content">
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Madeirite Plastificado Antiderrapante é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Madeirite Plastificado Antiderrapante é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">Pela segurança que proporciona, o Madeirite Plastificado
                                 Antiderrapante é
                                 utilizado em pisos no geral, como: carrocerias, containers, trailers, pisos de eventos e
                                 arquibancadas,
@@ -57,8 +57,9 @@ section class="content">
 
                             </p>
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -219,50 +220,48 @@ section class="content">
     <div class="parallax_sugestoes">
     <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.plastificado') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Madeirite Plastificado
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('mp.extra') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Plastificado Extra</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
-                            </div>
-                        </div>
-                        </a>
-                </div>
-                
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.resinado-wbp') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Resinado (WBP)</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card ">
-                        <a href="{{ route('m.resinado-mr') }}">
-                            <div class="card-front ">Madeirite Resinado MR</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-resinado-mr.png" alt="" />
-                            </div>
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('m.plastificado') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado</p>
                     </div>
-                    </a>
-                </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('mp.extra') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado Extra</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('m.resinado-wbp') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Resinado (WBP)</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('m.resinado-mr') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Resinado MR</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-resinado-mr.png" alt="" />
+                        </div>
+
+                    </div>
+                </a>
             </div>
         </div>
     </div>

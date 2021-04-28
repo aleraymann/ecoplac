@@ -92,3 +92,9 @@ Route::get('/segmentos', function () {
 Route::get('/segmentos/construcao-civil', function () {
     return view('construcao_civil');
 })->name('s.ccvil');
+Route::get('/segmentos/feiras-eventos-stands', function () {
+    return view('feiras');
+})->name('s.feiras-eventos');
+Route::get('/segmentos/embalagens', function () {
+    return view('embalagens');
+})->name('s.embalagens');

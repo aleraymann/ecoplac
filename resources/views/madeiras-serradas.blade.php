@@ -8,13 +8,14 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Conheça as Madeiras Serradas Ecoplac</h5>
+
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Conheça as Madeiras Serradas Ecoplac</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">As madeiras serradas são produtos que possuem as mais variadas
                                 possibilidades
                                 de
@@ -28,13 +29,13 @@
                                 origem limpa e sustentável.</p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde as Madeiras Serradas podem ser usadas?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde as Madeiras Serradas podem ser usadas?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">As madeiras serradas são ótimas opções para escoramento de
                                 lajes e também
                                 auxiliam
@@ -47,8 +48,9 @@
                                 rústicos.
                             </p>
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

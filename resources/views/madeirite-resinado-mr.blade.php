@@ -8,14 +8,14 @@ div class="item">
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Madeirite Resinado MR (Cola Branca)?</h5>
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Madeirite Resinado MR (Cola Branca)?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Madeirite Resinado MR são chapas compostas por lâminas de
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O Madeirite Resinado MR são chapas compostas por lâminas de
                                 madeira sobrepostas em
                                 camadas, coladas com resina MR reutilizável PARMACOL UF 1408, que é uma cola à base de
                                 uréia e formol,
@@ -33,14 +33,14 @@ div class="item">
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Madeirite Resinado MR é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Madeirite Resinado MR é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Madeirite Resinado MR é indicado no uso interno da
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O Madeirite Resinado MR é indicado no uso interno da
                                 construção civil, em
                                 edificações no sistema a seco ou em qualquer área que não exija o uso de água ou outros
                                 materiais
@@ -52,11 +52,12 @@ div class="item">
                                 repartições, revestimentos, embalagens, caixas, tapumes, fôrmas de concreto não
                                 aparentes, entre outros.
                             </p>
-
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
+
         </div>
     </div>
 </section>
@@ -198,49 +199,47 @@ div class="item">
     <div class="parallax_sugestoes">
         <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.plastificado') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Madeirite Plastificado
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
-                            </div>
+            <div class="segmentos">
+            <a class="card-sugestoes" href="{{ route('m.plastificado') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('mp.antiderrapante') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Plastificado Antiderrapante</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-antiderrapante.png" alt="" />
-                            </div>
-                        </div>
-                </div>
+                    </div>
                 </a>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('mp.extra') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Plastificado Extra</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
-                            </div>
+                <a class="card-sugestoes" href="{{ route('mp.extra') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado Extra</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.resinado-wbp') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Resinado (WBP)</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
-                            </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('mp.antiderrapante') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado Antiderrapante</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-antiderrapante.png" alt="" />
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('m.resinado-wbp') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Resinado (WBP)</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

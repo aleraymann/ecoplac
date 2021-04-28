@@ -8,7 +8,7 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-        <!-- <div class="segmentos">
+         <div class="segmentos">
                 <a class="card-ecowall">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">O que é o Painel Ecowall?</p>
@@ -64,62 +64,6 @@
 
                     </div>
                 </a>
-            </div>-->
-           <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Painel Ecowall?</h5>
-                    </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Painel Ecowall é uma Placa Cimentícia de alta resistência,
-                                composto por
-                                miolo
-                                maciço de madeira de pinus sarrafeada, revestida com 2 placas de fibrocimento coladas e
-                                prensadas,
-                                totalmente livre de amianto.Produzida com a moderna tecnologia CRFS (Cimento Reforçado
-                                com Fio Sintético),
-                                os
-                                painéis são confeccionados com materiais ecologicamente corretos. Este material permite
-                                infinitas formas
-                                de
-                                acabamento, de rápida aplicação e sem desperdícios.
-                            </p>
-                            <p class="sub-title_produtos">Ele suporta cargas distribuídas e impactos, é resistente a
-                                umidade, possui bom
-                                comportamento elástico e ao fogo e excelente condicionamento térmico natural, que
-                                oportuniza melhores
-                                condições de conforto térmico e acústico.
-                            </p>
-                            <p class="sub-title_produtos">Por sua fácil instalação, limpeza e manutenção com
-                                possibilidade de pintura o
-                                Painel Ecowall da Ecoplac é indicado para diversos ambientes, pois oferece os mais
-                                variados tipos de
-                                acabamento, além de oferecer maior rapidez em sua montagem, mais qualidade e melhor
-                                custo/benefício na
-                                sua
-                                obra.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Vantagens do Painel Ecowall</h5>
-                    </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">- Maior resistência a impactos</p>
-                            <p class="sub-title_produtos">- Boa aderência a vários tipos de acabamento</p>
-                            <p class="sub-title_produtos">- Oferece mais rapidez na montagem</p>
-                            <p class="sub-title_produtos">- Resistente a umidade e interferências climáticas</p>
-                            <p class="sub-title_produtos">- Imune a insetos e roedores</p>
-                            <p class="sub-title_produtos">- Não apodrece</p>
-                            <p class="sub-title_produtos">- Maior facilidade no corte e manuseio</p>
-                            <p class="sub-title_produtos">- Suporte à mais peso</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

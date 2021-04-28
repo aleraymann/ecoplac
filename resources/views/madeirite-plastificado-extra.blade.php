@@ -1,20 +1,20 @@
 @extends('layouts.app')
 @section('conteudo')
 <section class="content">
-<div class="item">
-    <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
-</div>
+    <div class="item">
+        <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
+    </div>
 </section>
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Madeirite Plastificado Extra?</h5>
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Madeirite Plastificado Extra?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">O madeirite plastificado extra, semelhante ao madeirite
                                 plastificado convencional,
                                 é a chapa multilaminada, que é prensada com resina fenólica , e recebe uma capa de
@@ -33,13 +33,13 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Madeirite Plastificado Extra é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Madeirite Plastificado Extra é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">O madeirite plastificado extra possui grande versatilidade, e
                                 pode ser usado para
                                 a fabricação de fôrmas de concreto aparentes, lajes, vigamento, pilares, fundações,
@@ -48,10 +48,10 @@
                                 caminhão, bandejas de
                                 proteção e muito mais.
                             </p>
-
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -113,28 +113,28 @@
             <p class="sub-title4">
                 <b>Versatilidade:</b> você pode utilizar o madeirite plastificado extra mais de uma vez em diferentes
                 funções
-                </p>
-                <p class="sub-title4">
-                    <b>Reciclagem: </b> o madeirite plastificado pode ser utilizado até 18 vezes nas duas faces
-                </p>
-                <p class="sub-title4">
-                    <b>Custo-benefício:</b> em comparação com as formas de alumínio, o madeirite plastificado extra
-                    apresenta mais economia
+            </p>
+            <p class="sub-title4">
+                <b>Reciclagem: </b> o madeirite plastificado pode ser utilizado até 18 vezes nas duas faces
+            </p>
+            <p class="sub-title4">
+                <b>Custo-benefício:</b> em comparação com as formas de alumínio, o madeirite plastificado extra
+                apresenta mais economia
 
-                </p>
-                <p class="sub-title4">
-                    <b>Facilidade:</b> este material oferece uma maior capacidade de manuseio e de transporte
+            </p>
+            <p class="sub-title4">
+                <b>Facilidade:</b> este material oferece uma maior capacidade de manuseio e de transporte
 
-                </p>
-                <p class="sub-title4">
-                    <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições
-                    climáticas interfiram na sua qualidade e durabilidade
-                </p>
-                <p class="sub-title4">
-                    <b> Estética: </b> pela sua boa aparência de fábrica, o madeirite plastificado extra dispensa o
-                    verniz e pode ser usado mesmo de forma aparente, dando um acabamento homogêneo à obra
+            </p>
+            <p class="sub-title4">
+                <b> Resistência: </b> o madeirite pode sofrer com exposição a sol e chuva, sem que as condições
+                climáticas interfiram na sua qualidade e durabilidade
+            </p>
+            <p class="sub-title4">
+                <b> Estética: </b> pela sua boa aparência de fábrica, o madeirite plastificado extra dispensa o
+                verniz e pode ser usado mesmo de forma aparente, dando um acabamento homogêneo à obra
 
-                </p>
+            </p>
         </div>
     </div>
 </section>
@@ -204,49 +204,50 @@
     <div class="parallax_sugestoes">
         <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.plastificado') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Madeirite Plastificado
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('mp.antiderrapante') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Plastificado Antiderrapante</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-antiderrapante.png" alt="" />
-                            </div>
-                        </div>
-                </div>
-                </a>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('m.resinado-wbp') }}">
-                        <div class="card ">
-                            <div class="card-front ">Madeirite Resinado (WBP)</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card ">
-                        <a href="{{ route('m.resinado-mr') }}">
-                            <div class="card-front ">Madeirite Resinado MR</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/madeirite-resinado-mr.png" alt="" />
-                            </div>
+
+
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('m.plastificado') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado</p>
                     </div>
-                    </a>
-                </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-plastificado1.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('mp.antiderrapante') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Plastificado Antiderrapante</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-antiderrapante.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('m.resinado-wbp') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Resinado (WBP)</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-resinado-wbp.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('m.resinado-mr') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Madeirite Resinado MR</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/madeirite-resinado-mr.png" alt="" />
+                        </div>
+
+                    </div>
+                </a>
             </div>
         </div>
 

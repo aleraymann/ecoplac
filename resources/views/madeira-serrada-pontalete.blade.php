@@ -8,14 +8,14 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é a Madeira Serrada Pontalete?</h5>
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é a Madeira Serrada Pontalete?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">A Madeira Serrada Pontalete é também conhecida como “escora” é
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">A Madeira Serrada Pontalete é também conhecida como “escora” é
                                 uma peça de madeira
                                 formada por quatro lados iguais. Este material pode ser apresentado tanto na versão
                                 bruto como aplainada.
@@ -28,20 +28,21 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde a Madeira Serrada Pontalete é utilizada?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde a Madeira Serrada Pontalete é utilizada?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Pontalete é majoritariamente empregado na construção civil,
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O Pontalete é majoritariamente empregado na construção civil,
                                 para escoramento de
                                 lajes e pés de andaimes.
                             </p>
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -166,21 +167,17 @@
     <div class="parallax_sugestoes">
         <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3"></div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('ms.ripa') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Ripa
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/ripa.png" alt="" />
-                            </div>
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('ms.ripa') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Ripa </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                        <img class="img-card" src="/img/ripa.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3"></div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

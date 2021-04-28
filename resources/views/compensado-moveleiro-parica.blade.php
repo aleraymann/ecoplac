@@ -1,19 +1,19 @@
 @extends('layouts.app')
 @section('conteudo')
 <section class="content">
-<img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
-</div>
+    <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
+    </div>
 </section>
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Compensado Moveleiro Virola Paricá?</h5>
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Compensado Moveleiro Virola Paricá?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">A virola é uma madeira cuja característica principal é a
                                 ausência de nós,
                                 oferecendo uma superfície lisa. Por este motivo, ela é usada principalmente na capa e
@@ -33,29 +33,32 @@
                                 que o compensado de
                                 amescla e seu acabamento do mais alto padrão de qualidade. Variadas formas de utilização
                                 que o produto
-                                oferece. Recomendado para indústria moveleira, forração de ambientes e usos em geral
+                                oferece. Recomendado para indústria moveleira, forração de ambientes e usos em geral.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Compensado Moveleiro Virola Paricá é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Compensado Moveleiro Virola Paricá é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                        <p class="sub-title_produtos">A aplicação do Compensado Moveleiro Virola Paricá, como o próprio nome já
-                indica,
-                é utilizado na indústria moveleira.
-            </p>
-            <p class="sub-title_produtos">Pelo seu acabamento e qualidade, o uso é indicado na fabricação de móveis,
-                forração de ambientes, estruturas internas, e na fabricação de stands, para feiras e eventos.
+                    <div class="back-segmentos">
+                        <div>
+                            <p class="sub-title_produtos">A aplicação do Compensado Moveleiro Virola Paricá, como o
+                                próprio nome já
+                                indica,
+                                é utilizado na indústria moveleira.
+                            </p>
+                            <p class="sub-title_produtos">Pelo seu acabamento e qualidade, o uso é indicado na
+                                fabricação de móveis,
+                                forração de ambientes, estruturas internas, e na fabricação de stands, para feiras e
+                                eventos.
 
-            </p>
-
+                            </p>
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -64,47 +67,47 @@
 <section class="content">
     <!-- Topic Cards -->
     <div id="cards_landscape_wrap-2">
-    <div class="conteudo">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/parica/1.png" alt="" />
+        <div class="conteudo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/parica/1.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/parica/2.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/parica/2.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/parica/3.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/parica/3.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src="/img/parica/5.png" alt="" />
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="/img/parica/5.png" alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 </section>
@@ -143,61 +146,62 @@
 
 <section class="content">
     <div id="cards_landscape_wrap-2">
-    <div class="conteudo">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="conteudo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="text-container-especificacoes">
-                                <h6>Medidas Nominais</h6>
-                                <p> 2200×1600, 2440×1220 e 2500×1600mm</p>
-                                <p> Pré-cortado na medida necessária</p>
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="text-container-especificacoes">
+                                    <h6>Medidas Nominais</h6>
+                                    <p> 2200×1600, 2440×1220 e 2500×1600mm</p>
+                                    <p> Pré-cortado na medida necessária</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="text-container-especificacoes">
+                                    <h6>Espessuras</h6>
+                                    <p> 04 mm, 06 mm, 08 mm, 10 mm, 12 mm, 15 mm, 18 mm, 20 mm, 25 mm e 30 mm.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="text-container-especificacoes">
+                                    <h6>Colagem</h6>
+                                    <p> Cola Branca com Resina MR-Reutilizável e com resina fenólica WBP 100% resistente
+                                        à
+                                        água (WBP – wheather and boil proof).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="text-container-especificacoes">
+                                    <h6>Indicação</h6>
+                                    <p>Moveleiro</p>
+                                    <p>Feiras e eventos</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="text-container-especificacoes">
-                                <h6>Espessuras</h6>
-                                <p> 04 mm, 06 mm, 08 mm, 10 mm, 12 mm, 15 mm, 18 mm, 20 mm, 25 mm e 30 mm.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="text-container-especificacoes">
-                                <h6>Colagem</h6>
-                                <p> Cola Branca com Resina MR-Reutilizável e com resina fenólica WBP 100% resistente à
-                                    água (WBP – wheather and boil proof).</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="text-container-especificacoes">
-                                <h6>Indicação</h6>
-                                <p>Moveleiro</p>
-                                <p>Feiras e eventos</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -205,43 +209,41 @@
 </section>
 <section class="content">
     <div class="parallax_sugestoes">
-    <div class="conteudo">
+        <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.industrial') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Compensado Pinus Industrial
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-industrial.png" alt="" />
-                            </div>
+
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('c.industrial') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Pinus Industrial</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-industrial.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <a href="{{ route('c.embalagem') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                            Compensado Pinus Embalagem 
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-pinus.png" alt="" />
-                            </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('c.embalagem') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Pinus Embalagem </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-pinus.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.eucalipto') }}">
-                        <div class="card ">
-                            <div class="card-front ">Compensado Eucalipto</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-eucalipto.png" alt="" />
-                            </div>
+                    </div>
+                </a>
+
+                <a class="card-sugestoes" href="{{ route('c.eucalipto') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Eucalipto</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-eucalipto.png" alt="" />
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

@@ -8,13 +8,13 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é a Madeira Serrada Ripa?</h5>
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é a Madeira Serrada Ripa?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">Confeccionada em madeira de Pinus, podendo ser adquirida de
                                 forma bruta ou
                                 aplainada, a ripa ou ripão é uma peça retangular de madeira, e embora não seja a mesma
@@ -33,13 +33,13 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde a Madeira Serrada Ripa é utilizada?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde a Madeira Serrada Ripa é utilizada?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
+                    <div class="back-segmentos">
+                        <div>
                             <p class="sub-title_produtos">O uso da ripa se dá principalmente na construção civil, para
                                 escoramento de lajes
                                 e pés de andaimes, e em várias etapas da obra. Mas ela também pode ser empregada em
@@ -51,9 +51,11 @@
                                 produtos muito pesados.
                             </p>
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
+
         </div>
     </div>
 
@@ -184,23 +186,20 @@
 </section>
 <section class="content">
     <div class="parallax_sugestoes">
-    <div class="conteudo">
+        <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">  </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="{{ route('ms.pontalete') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                            Pontalete
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/pontalete.png" alt="" />
-                            </div>
+
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('ms.pontalete') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Pontalete </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/pontalete.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-3 col-lg-3"></div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

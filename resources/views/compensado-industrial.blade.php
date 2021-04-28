@@ -7,14 +7,14 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Compensado Industrial?</h5>
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Compensado Industrial?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Compensado Pinus Industrial é um painel multilaminado,
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O Compensado Pinus Industrial é um painel multilaminado,
                                 sobreposto em número
                                 ímpar de camadas. Este material possui grande versatilidade no que se refere à sua
                                 composição, podendo ser
@@ -30,14 +30,14 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Compensado Industrial é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Compensado Industrial é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">A aplicação do Compensado Pinus Industrial se dá em assoalhos
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">A aplicação do Compensado Pinus Industrial se dá em assoalhos
                                 e revestimento para
                                 e veículos de transporte rodoviário e aquático.
 
@@ -48,10 +48,10 @@
                                 mezaninos.
 
                             </p>
-
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -201,39 +201,37 @@
     <div class="parallax_sugestoes">
     <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.embalagem') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                            Compensado Pinus Embalagem 
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-pinus.png" alt="" />
-                            </div>
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('c.embalagem') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Pinus Embalagem </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                        <img class="img-card" src="/img/compen-pinus.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.moveleiro-parica') }}">
-                        <div class="card ">
-                            <div class="card-front ">Compensado Moveleiro Virola (Paricá)</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-parica.png" alt="" />
-                            </div>
-                        </div>
-                </div>
+                    </div>
                 </a>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.eucalipto') }}">
-                        <div class="card ">
-                            <div class="card-front ">Compensado Eucalipto</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-eucalipto.png" alt="" />
-                            </div>
+                <a class="card-sugestoes" href="{{ route('c.moveleiro-parica') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Moveleiro Virola (Paricá)</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                        <img class="img-card" src="/img/compen-parica.png" alt="" />
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('c.eucalipto') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Eucalipto</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                        <img class="img-card" src="/img/compen-eucalipto.png" alt="" />
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

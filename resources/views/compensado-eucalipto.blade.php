@@ -1,20 +1,21 @@
 @extends('layouts.app')
 @section('conteudo')
 <section class="content">
-<img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
-</div>
+    <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">
+    </div>
 </section>
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Compensado Eucalipto?</h5>
+
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Compensado Eucalipto?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">O Compensado Eucalipto é um painel multilaminado e prensado
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">O Compensado Eucalipto é um painel multilaminado e prensado
                                 sob altas
                                 temperaturas, compactando as camadas de lâminas de eucalipto.
                             </p>
@@ -24,14 +25,14 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Compensado Eucalipto é utilizado?</h5>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Compensado Eucalipto é utilizado?</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">A aplicação do Compensado Eucalipto, é utilizado na indústria
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">A aplicação do Compensado Eucalipto, é utilizado na indústria
                                 moveleira para
                                 fabricação de móveis em geral, como gavetas, estofados, armários, divisórias, pisos para
                                 feiras, entre
@@ -43,10 +44,10 @@
                                 proof, tornando a
                                 peça resistente à água.
                             </p>
-
                         </div>
+
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -197,43 +198,41 @@
 <section class="content">
     <div class="parallax_sugestoes">
 
-    <div class="conteudo">
+        <div class="conteudo">
             <div class="sub-title">Você também pode se interessar por</div>
-            <div class="wrap">
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a href="{{ route('c.industrial') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                                Compensado Pinus Industrial
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-industrial.png" alt="" />
-                            </div>
+
+            <div class="segmentos">
+                <a class="card-sugestoes" href="{{ route('c.industrial') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes"> Compensado Pinus Industrial </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-industrial.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <a href="{{ route('c.embalagem') }}">
-                        <div class="card ">
-                            <div class="card-front ">
-                            Compensado Pinus Embalagem 
-                            </div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-pinus.png" alt="" />
-                            </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('c.embalagem') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Pinus Embalagem </p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-pinus.png" alt="" />
                         </div>
-                    </a>
-                </div>
-                <div class="cardBox col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <a href="{{ route('c.moveleiro-parica') }}">
-                        <div class="card ">
-                            <div class="card-front ">Compensado Moveleiro Virola (Paricá)</div>
-                            <div class="card-back">
-                                <img class="img-card" src="/img/compen-parica.png" alt="" />
-                            </div>
+                    </div>
+                </a>
+                <a class="card-sugestoes" href="{{ route('c.moveleiro-parica') }}">
+                    <div class="front-sugestoes">
+                        <p class="txt-front-sugestoes">Compensado Moveleiro Virola (Paricá)</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <img class="img-card" src="/img/compen-parica.png" alt="" />
                         </div>
-                        </a>
-                </div>
+                    </div>
+                </a>
+
             </div>
         </div>
     </div>

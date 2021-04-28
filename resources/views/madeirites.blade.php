@@ -9,45 +9,46 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">O que é o Madeirite?</h5>
+            <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">O que é o Madeirite?</p>
                     </div>
-                    <div class="course-more">
-                    <div class="conteudo_card">
-                        <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem
-                            diversos
-                            setores de
-                            produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso aparente, na
-                            construção
-                            civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as
-                            mais variadas
-                            necessidades do mercado.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Onde o Madeirite pode ser usado?</h5>
-                    </div>
-                    <div class="course-more">
-                    <div class="conteudo_card">
-                        <p class="sub-title_produtos">O uso do madeirite é aplicado principalmente na construção civil,
-                            na
-                            construção de
-                            formas de concreto aparente, como em lajes, vigas e pilares, que exigem um acabamento
-                            uniforme, e até
-                            mesmo
-                            na vedação provisória de obras.
-                            O madeirite também é muito utilizado na fabricação de chão e bancos de lanchas, barcos,
-                            ônibus e até
-                            aeronaves.
-                        </p>
+                    <div class="back-segmentos">
+                        <div>
+                            <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem
+                                diversos
+                                setores de
+                                produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso
+                                aparente, na
+                                construção
+                                civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as
+                                mais variadas
+                                necessidades do mercado.
+                            </p>
                         </div>
                     </div>
-                </div>
+                </a>
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Onde o Madeirite pode ser usado?</p>
+                    </div>
+                    <div class="back-segmentos">
+                        <div>
+                            <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem
+                                diversos
+                                setores de
+                                produção, e aos clientes que exigem altos padrões de qualidade. Seja para o uso
+                                aparente, na
+                                construção
+                                civil, indústria moveleira, ou diferentes tipos de estrutura, nossos produtos atendem as
+                                mais variadas
+                                necessidades do mercado.
+                            </p>
+                        </div>
+
+                    </div>
+                </a>
             </div>
         </div>
     </div>

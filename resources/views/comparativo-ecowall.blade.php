@@ -8,14 +8,17 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-            <div class="courses ">
-                <div class="course card1" tabindex="1">
-                    <div class="course-info">
-                        <h5 class="title_produtos">Comparativo Ecowall x Drywall</h5>
+
+
+
+        <div class="segmentos">
+                <a class="card-segmentos">
+                    <div class="front-segmentos">
+                        <p class="txt-front-oque">Comparativo Ecowall x Drywall</p>
                     </div>
-                    <div class="course-more">
-                        <div class="conteudo_card">
-                            <p class="sub-title_produtos">Muitas são as dúvidas envolvendo o Ecowall e o Drywall. Apesar
+                    <div class="back-segmentos">
+                        <div>
+                        <p class="sub-title_produtos">Muitas são as dúvidas envolvendo o Ecowall e o Drywall. Apesar
                                 de servir ao
                                 mesmo
                                 propósito, estes materiais são muito diferentes em sua estrutura, resistência e
@@ -25,7 +28,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

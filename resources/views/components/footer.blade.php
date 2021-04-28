@@ -46,10 +46,10 @@
                             <a href="{{route('s.ccvil')}}">Construção Civil</a>
                         </li>
                         <li>
-                            <a href="">Feiras / Eventos / Stands</a>
+                            <a href="{{route('s.feiras-eventos')}}">Feiras / Eventos / Stands</a>
                         </li>
                         <li>
-                            <a href="">Embalagem</a>
+                            <a href="{{route('s.embalagens')}}">Embalagem</a>
                         </li>
                         <li>
                             <a href="">Moveleiros </a>
