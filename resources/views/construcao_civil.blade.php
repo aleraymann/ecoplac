@@ -31,7 +31,7 @@
             <b> Madeiras mais utilizadas na Construção Civil</b>
         </div>
         <div class="segmentos">
-            <a class="card-segmentos" href="{{ route('m.plastificado') }}">
+            <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png">
                     <p class="txt-front">Madeirite Plastificado</p>
                 </div>
@@ -39,23 +39,24 @@
                     <div>
                         <p>O Madeirite Plastificado é recomendado para fôrmas de concreto aparente, divisórias,
                             alojamentos temporários, entre outros</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('m.plastificado') }}""> Mais Detalhes</a></div>
                     </div>
                 </div>
-            </a>
-            <a class="card-segmentos" href="{{ route('mp.antiderrapante') }}">
-              <div class="front-segmentos" style="background-image: url(/img/madeirite-antiderrapante.png)">
-              <p class="txt-front">Madeirite Plastificado Antiderrapante</p>
+            </div>
+            <div class="card-segmentos">
+                <div class="front-segmentos" style="background-image: url(/img/madeirite-antiderrapante.png)">
+                    <p class="txt-front">Madeirite Plastificado Antiderrapante</p>
                 </div>
                 <div class="back-segmentos">
                     <div>
-                        <p>Utilizado para pisos em geral, como carrocerias, trailers, pisos de eventos e arquibancadas, bem como na Construção Civil</p>
-                    <button class="button">Mais Detalhes</button>
+                        <p>Utilizado para pisos em geral, como carrocerias, trailers, pisos de eventos e arquibancadas,
+                            bem como na Construção Civil</p>
+                            <div class="button"><a  href="{{ route('mp.antiderrapante') }}"> Mais Detalhes</a></div>
                     </div>
-                    
+
                 </div>
-            </a>
-            <a class="card-segmentos" href="{{ route('mp.extra') }}">
+</div>
+            <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png)">
                     <p class="txt-front">Madeirite Plastificado Extra</p>
                 </div>
@@ -63,12 +64,12 @@
                     <div>
                         <p>Este material é calibrado para obter um melhor acabamento na aplicação do papel fenólico,
                             entre outros tratamentos que resultam em uma madeira de maior qualidade</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('mp.extra') }}"> Mais Detalhes</a></div>
                     </div>
                 </div>
-            </a>
-           
-            <a class="card-segmentos" href="{{ route('m.resinado-wbp') }}">
+            </div>
+
+            <div class="card-segmentos" href="{{ route('m.resinado-wbp') }}">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-resinado-wbp.png)">
                     <p class="txt-front">Madeirite Resinado (WBP)</p>
                 </div>
@@ -76,11 +77,12 @@
                     <div>
                         <p>Recomendado para fôrmas de concreto não aparentes, construção de alojamentos temporários,
                             bandejas de proteção, lajes, tapumes, embalagens, etc.</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('m.resinado-wbp') }}"> Mais Detalhes</a>
+                        </div>
                     </div>
                 </div>
-            </a>
-            <a class="card-segmentos" href="{{ route('m.resinado-mr') }}">
+            </div>
+            <div class="card-segmentos" href="{{ route('m.resinado-mr') }}">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-resinado-mr.png)">
                     <p class="txt-front">Madeirite Resinado MDR</p>
                 </div>
@@ -88,11 +90,12 @@
                     <div>
                         <p>Recomendado para uso interno ou utilizações rápidas em fôrmas de concreto, tapumes,
                             barracões, bandejas, divisórias, alojamentos temporários, entre outros</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('m.resinado-mr') }}"> Mais Detalhes</a>
+                        </div>
                     </div>
                 </div>
-            </a>
-            <a class="card-segmentos" href="{{ route('c.embalagem') }}">
+            </div>
+            <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-pinus.png)">
                     <p class="txt-front">Compensado Pinus Embalagem</p>
                 </div>
@@ -101,10 +104,11 @@
                         <p>Este tipo de chapa de madeira não recebe acabamento, o que resulta em um produto de baixo
                             custo. São recomendados na fabricação de embalagem, tanto no uso interno quanto no uso
                             externo</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('c.embalagem') }}"> Mais Detalhes</a>
+                        </div>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 </section>

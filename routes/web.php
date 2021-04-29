@@ -98,3 +98,8 @@ Route::get('/segmentos/feiras-eventos-stands', function () {
 Route::get('/segmentos/embalagens', function () {
     return view('embalagens');
 })->name('s.embalagens');
+
+
+Route::get('/empresa', function () {
+    return view('sobre');
+})->name('sobre');

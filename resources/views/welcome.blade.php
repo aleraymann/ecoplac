@@ -103,7 +103,7 @@
                 veículos próprios, garantindo a segurança no armazenamento e na logística dos produtos.
             </p>
             <p class="sub-title3">
-            <a type="button" class="btn btn-ecoplac btn-lg">Conheça a Ecoplac</a>
+            <a type="button" class="btn btn-ecoplac btn-lg" href="{{route('sobre')}}">Conheça a Ecoplac</a>
             </p>
         </div>
     </div>

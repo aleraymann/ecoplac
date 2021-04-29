@@ -39,7 +39,7 @@
                         </div>
                 </li>
                 <!--<li><a href="#">Blog</a></li>-->
-                <li><a href="#">Sobre a Ecoplac</a></li>
+                <li><a href="{{route('sobre')}}">Sobre a Ecoplac</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>

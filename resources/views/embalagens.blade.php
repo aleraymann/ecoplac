@@ -36,7 +36,7 @@
             <b> Madeiras mais utilizadas na confecção de embalagens</b>
         </div>
         <div class="segmentos">
-            <a class="card-segmentos" href="{{ route('c.industrial') }}">
+            <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-industrial.png)">
                     <p class="txt-front">Compensado Industrial</p>
                 </div>
@@ -45,11 +45,12 @@
                         <p>O compensado industrial é um painel de extrema versatilidade, e que oferece ótimo acabamento
                             em qualquer utilização. Na confecção de embalagens o compensado industrial garante uma boa
                             estética, aliado à resistência.</p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('c.industrial') }}"> Mais
+                                Detalhes</a></div>
                     </div>
                 </div>
-            </a>
-            <a class="card-segmentos" href="{{ route('c.embalagem') }}">
+            </div>
+            <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-pinus.png)">
                     <p class="txt-front">Compensado Pinus Embalagem</p>
                 </div>
@@ -59,10 +60,11 @@
                             material mais econômico. Este tipo de madeira é resistente a impactos, preservando com
                             segurança o conteúdo que se encontra dentro da embalagem
                         </p>
-                        <button class="button">Mais Detalhes</button>
+                        <div class="button"><a href="{{ route('c.embalagem') }}"> Mais
+                                Detalhes</a></div>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 </section>

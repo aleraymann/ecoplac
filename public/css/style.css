@@ -837,7 +837,6 @@ li{
 
   .card-segmentos {
     color: inherit;
-    cursor: pointer;
     width: calc(33% - 2rem);
     min-width: calc(33% - 2rem);
     height: 400px;
@@ -975,7 +974,15 @@ li{
     position: relative;
     transform-style: preserve-3d;
     transition: 300ms ease;
+   
   }
+  .button > a{
+    text-decoration: none;
+    color: white;
+
+  }
+
+
   .button:before {
     transition: 300ms ease;
     position: absolute;
@@ -992,6 +999,7 @@ li{
   }
   .button:hover {
     transform: translateZ(55px);
+    color: white;
   }
   .button:hover:before {
     transform: translateZ(-55px);
@@ -1006,6 +1014,10 @@ li{
   p.txt-front{
     margin-top: -304px!important;
     color: black;
+  }
+  p.txt-front-sobre{
+    margin-top: 300px!important;
+    color: white;
   }
 
   p.txt-front-oque{

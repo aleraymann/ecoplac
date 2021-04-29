@@ -67,7 +67,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-dark">Sobre a Ecoplac</a>
+                            <a href="{{route('sobre')}}" class="text-dark">Sobre a Ecoplac</a>
                         </li>
                         <li>
                             <a href="#!" class="text-dark">Contato</a>
