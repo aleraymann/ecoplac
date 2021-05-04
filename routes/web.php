@@ -103,3 +103,10 @@ Route::get('/segmentos/embalagens', function () {
 Route::get('/empresa', function () {
     return view('sobre');
 })->name('sobre');
+
+Route::get('/fale-conosco', function () {
+    return view('contato');
+})->name('contato');
+
+
+Route::post('contato', 'Controller@postContato');

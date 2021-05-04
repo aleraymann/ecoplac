@@ -116,9 +116,43 @@
     </div>
 </section>
 <section class="content">
-    <div class="parallax_madeirite">
+    <div class="parallax">
         <div class="conteudo">
-            <div class="segmentos">
+        <div class="title5">
+                <b>Missão</b>
+            </div>
+            <p class="sub-title4">
+               Levar madeira de qualidade e de origem limpa para todos os
+                nossos clientes, no Brasil e no mundo, através de um atendimento de qualidade e de
+                preços justos.
+            </p>
+            <div class="title5">
+                <b>Visão</b>
+            </div>
+            <p class="sub-title4">
+                 Estar presente cada vez mais em todo o Brasil, e nos
+                consolidar no ramo madeireiro como uma empresa que atende à empresas de qualquer porte,
+                com a mesma qualidade tanto no atendimento quanto nos produtos oferecidos.
+            </p>
+            <div class="title5">
+                <b>Valores</b>
+            </div>
+            <p class="sub-title4">
+                Responsabilidade ambiental e preservação do meio ambiente, ética e comprometimento,
+                superar a nós mesmos, e a valorização do ser humano, independente de gênero, etnia, orientação e
+                religiosidade.
+
+            </p>
+            <div class="title5">
+                <b>Nosso Propósito</b>
+            </div>
+            <p class="sub-title4">
+                Oferecer madeira de origem sustentável, a preços justos, e promover a
+                conscientização de que os recursos do planeta são finitos, e por isso, o uso da madeira oriunda de
+                reflorestamento é a forma de trazer menos impactos ao meio ambiente.
+            </p>
+
+            <!--<div class="segmentos">
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Missão</p>
@@ -194,7 +228,7 @@
 
                     </div>
                 </a>
-            </div>
+            </div>-->
         </div>
     </div>
 

@@ -40,7 +40,7 @@
                 </li>
                 <!--<li><a href="#">Blog</a></li>-->
                 <li><a href="{{route('sobre')}}">Sobre a Ecoplac</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="{{route('contato')}}">Contato</a></li>
             </ul>
         </nav>
     </div>

@@ -70,7 +70,7 @@
                             <a href="{{route('sobre')}}" class="text-dark">Sobre a Ecoplac</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Contato</a>
+                            <a href="{{route('contato')}}" class="text-dark">Contato</a>
                         </li>
                     </ul>
                 </div>
