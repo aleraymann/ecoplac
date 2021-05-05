@@ -110,3 +110,8 @@ Route::get('/fale-conosco', function () {
 
 
 Route::post('contato', 'Controller@postContato');
+
+Route::get('/email-contato', function () {
+    return view('emails.contato');
+});
+
