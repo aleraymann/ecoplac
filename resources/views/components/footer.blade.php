@@ -22,10 +22,10 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-dark">Home</a>
+                            <a href="/" class="text-dark">Home</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">Produtos</a>
+                            <a href="{{route('produtos')}}" class="text-dark">Produtos</a>
                         </li>
                         <li>
                             <a href="{{ route('madeirite') }}">Madeirites</a>

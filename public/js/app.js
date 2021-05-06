@@ -20,6 +20,64 @@ $(document).ready(function () {
 })
 
 $('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
+    $('#myInput').trigger('focus')
 })
 
+$('#submit').on('click', function (event) {
+    if ($('#nome').val() == "") { //usuario
+        event.preventDefault();
+        $("#nome").addClass("invalid");
+
+    }
+    if ($('#email').val() == "") { //senha
+        event.preventDefault();
+        $("#email").addClass("invalid");
+
+    }
+    if ($('#assunto').val() == "") { //nome empresa
+        event.preventDefault();
+        $("#assunto").addClass("invalid");
+
+    }
+    if ($('#mensagem').val() == "") { //nome empresa
+        event.preventDefault();
+        $("#mensagem").addClass("invalid");
+    }
+});
+
+$("#nome").blur(function () {
+    if ($("#nome").val() == "") {
+        $("#nome").addClass("invalid");
+        $
+    } else {
+        $("#nome").removeClass("invalid");
+
+    }
+});
+$("#email").blur(function () {
+    if ($("#email").val() == "") {
+        $("#email").addClass("invalid");
+
+    } else {
+        $("#email").removeClass("invalid");
+
+    }
+});
+$("#assunto").blur(function () {
+    if ($("#assunto").val() == "") {
+        $("#assunto").addClass("invalid");
+
+    } else {
+        $("#assunto").removeClass("invalid");
+
+    }
+});
+$("#mensagem").blur(function () {
+    if ($("#mensagem").val() == "") {
+        $("#mensagem").addClass("invalid");
+
+    } else {
+        $("#mensagem").removeClass("invalid");
+
+    }
+});

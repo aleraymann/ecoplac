@@ -1104,3 +1104,23 @@ li{
     margin-bottom: 10px;
   }
 
+.alert-success {
+    color: #3c763d !important;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    margin-bottom: 0px;
+}
+
+.invalid {
+  border-bottom: none;
+  border-radius: 4px !important;
+  border       : 2px solid red;
+  box-shadow   : 0 0px 0 0 red;
+  caret-color  : red  !important;
+}
+.obrigatorio {
+  color: red;
+  font-size: 10px;
+  margin-left: 8px;
+  margin-top: 3px;
+}
