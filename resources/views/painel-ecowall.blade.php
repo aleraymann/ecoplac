@@ -8,14 +8,14 @@
 <section class="content">
     <div class="parallax_madeirite">
         <div class="conteudo">
-         <div class="segmentos">
+            <div class="segmentos">
                 <a class="card-ecowall">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">O que é o Painel Ecowall?</p>
                     </div>
                     <div class="back-segmentos">
-                        <div>
-                        <p class="sub-title_produtos">O Painel Ecowall é uma Placa Cimentícia de alta resistência,
+                        <div class="">
+                            <p class="sub-title_produtos grande">O Painel Ecowall é uma Placa Cimentícia de alta resistência,
                                 composto por
                                 miolo
                                 maciço de madeira de pinus sarrafeada, revestida com 2 placas de fibrocimento coladas e
@@ -28,13 +28,13 @@
                                 de
                                 acabamento, de rápida aplicação e sem desperdícios.
                             </p>
-                            <p class="sub-title_produtos">Ele suporta cargas distribuídas e impactos, é resistente a
+                            <p class="sub-title_produtos grande">Ele suporta cargas distribuídas e impactos, é resistente a
                                 umidade, possui bom
                                 comportamento elástico e ao fogo e excelente condicionamento térmico natural, que
                                 oportuniza melhores
                                 condições de conforto térmico e acústico.
                             </p>
-                            <p class="sub-title_produtos">Por sua fácil instalação, limpeza e manutenção com
+                            <p class="sub-title_produtos grande">Por sua fácil instalação, limpeza e manutenção com
                                 possibilidade de pintura o
                                 Painel Ecowall da Ecoplac é indicado para diversos ambientes, pois oferece os mais
                                 variados tipos de
@@ -52,7 +52,7 @@
                     </div>
                     <div class="back-segmentos">
                         <div>
-                        <p class="sub-title_produtos">- Maior resistência a impactos</p>
+                            <p class="sub-title_produtos">- Maior resistência a impactos</p>
                             <p class="sub-title_produtos">- Boa aderência a vários tipos de acabamento</p>
                             <p class="sub-title_produtos">- Oferece mais rapidez na montagem</p>
                             <p class="sub-title_produtos">- Resistente a umidade e interferências climáticas</p>
@@ -130,5 +130,3 @@
     </div>
 </section>
 @endsection
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="/js/app.js"></script>

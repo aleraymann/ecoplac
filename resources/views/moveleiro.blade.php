@@ -9,22 +9,15 @@
     <div class="parallax_claro">
         <div class="conteudo">
             <p class="sub-title4">
-                As embalagens de madeira tem como principal função transportar produtos frágeis, ou que precisam chegar
-                ao destino final sem qualquer avaria. Este modelo de embalagem é utilizado principalmente no transporte
-                de frutas, verduras e vidros, por exemplo.
+            A indústria moveleira no Brasil é responsável por 3,7% da produção mundial de móveis, e a exportação do mobiliário produzido no Brasil cresce a cada ano. Isso se dá, certamente, pela qualidade dos produtos, aliado à oscilação do dólar.
 
             </p>
             <p class="sub-title4">
-                As empresas que optam pela madeira para transportar seus produtos, acabam contando com vários outros
-                benefícios, como: utilizar material renovável que não agride o meio ambiente, ganhar durabilidade e
-                resistência, que resultam em uma maior segurança, fácil manuseio e utilização, e também mais economia,
-                pois o material oferece possibilidades de reutilização.
+            Um dos fatores que tornam o preço dos móveis do Brasil ainda mais acessíveis, é o baixo custo da madeira reflorestada, quesito extremamente importante não somente para se obter mais lucro, como também contribuir com a redução de impactos ambientais.
 
             </p>
             <p class="sub-title4">
-                A embalagem de madeira é a escolha ideal para o transporte de produtos que não oferecem um padrão
-                regular de tamanho, e assim, as embalagens podem ser feitas sob medida, ou montadas da forma necessária
-                para acomodar os itens em segurança.
+            Na Ecoplac, nós prezamos pela qualidade da madeira, mesmo a que é usada em estrutura interna, como na fabricação de estofados e camas. Confira nossas opções de madeiras para a Indústria Moveleira.
 
             </p>
         </div>
@@ -33,7 +26,7 @@
 <section class="content">
     <div class="conteudo">
         <div class="title">
-            <b> Madeiras mais utilizadas na confecção de embalagens</b>
+            <b> Madeiras mais utilizadas na Indústria Moveleira</b>
         </div>
         <div class="segmentos">
             <div class="card-segmentos">
@@ -61,6 +54,21 @@
                             segurança o conteúdo que se encontra dentro da embalagem
                         </p>
                         <div class="button"><a href="{{ route('c.embalagem') }}"> Mais
+                                Detalhes</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-segmentos">
+                <div class="front-segmentos" style="background-image: url(/img/compen-parica.png)">
+                    <p class="txt-front">Compensado Moveleiro Virola (Paricá)</p>
+                </div>
+                <div class="back-segmentos">
+                    <div>
+                        <p>A virola é uma madeira branca de superfície lisa, pois sua principal característica é o fato
+                            de ela não possuir nós. Por este motivo, ela é mais utilizada na capa e contracapa do
+                            compensado.
+                        </p>
+                        <div class="button"><a href="{{ route('c.moveleiro-parica') }}"> Mais
                                 Detalhes</a></div>
                     </div>
                 </div>

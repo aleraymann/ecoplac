@@ -98,6 +98,15 @@ Route::get('/segmentos/feiras-eventos-stands', function () {
 Route::get('/segmentos/embalagens', function () {
     return view('embalagens');
 })->name('s.embalagens');
+Route::get('/segmentos/pallets', function () {
+    return view('pallets');
+})->name('s.pallets');
+Route::get('/segmentos/industria-automotiva', function () {
+    return view('industria-automotiva');
+})->name('s.ind_auto');
+Route::get('/segmentos/moveleiro', function () {
+    return view('moveleiro');
+})->name('s.moveleiro');
 
 
 Route::get('/empresa', function () {

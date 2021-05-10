@@ -14,20 +14,20 @@
                     </div>
                     <div class="back-segmentos">
                         <div>
-                            <p class="sub-title_produtos">A virola é uma madeira cuja característica principal é a
+                            <p class="sub-title_produtos grande">A virola é uma madeira cuja característica principal é a
                                 ausência de nós,
                                 oferecendo uma superfície lisa. Por este motivo, ela é usada principalmente na capa e
                                 contracapa da chapa de
                                 compensado.
                             </p>
-                            <p class="sub-title_produtos">O Compensado Moveleiro Virola Paricá é um produto leve e ao
+                            <p class="sub-title_produtos grande">O Compensado Moveleiro Virola Paricá é um produto leve e ao
                                 mesmo tempo
                                 resistente, e apresenta um excelente acabamento, mesmo aos mais exigentes, e proporciona
                                 uma ampla
                                 utilização, devido às suas vantagens.
 
                             </p>
-                            <p class="sub-title_produtos">É composto de camadas de lâminas de madeira torneada,
+                            <p class="sub-title_produtos grande">É composto de camadas de lâminas de madeira torneada,
                                 sobrepostas e coladas com
                                 resina fenólica WBP 100% à prova d'água, é caracterizado por ser um produto mais leve
                                 que o compensado de
@@ -253,5 +253,3 @@
 </section>
 
 @endsection
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="/js/app.js"></script>

@@ -82,7 +82,7 @@
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <a href="">
+                        <a href="{{route('s.moveleiro')}}">
                             <div class="card-flyer">
                                 <div class="text-box">
                                     <div class="image-box">
@@ -101,7 +101,7 @@
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-6col-md-4 col-lg-4">
-                        <a href="">
+                        <a href="{{route('s.pallets')}}">
                             <div class="card-flyer">
                                 <div class="text-box">
                                     <div class="image-box">
@@ -115,6 +115,22 @@
                                             este material tem sido empregado na fabricação de móveis rústicos e na
                                             decoração
                                             de casas.</p>
+                                    </div>
+                                    <label>Clique e conheça melhor</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6col-md-4 col-lg-4">
+                        <a href="{{route('s.ind_auto')}}">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="/img/ind-auto.jpg" alt="" />
+                                    </div>
+                                    <div class="text-container-segmentos">
+                                        <h6>Indústria Automotiva</h6>
+                                        <p></p>
                                     </div>
                                     <label>Clique e conheça melhor</p>
                                 </div>

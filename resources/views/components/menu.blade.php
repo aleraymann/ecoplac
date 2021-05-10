@@ -34,8 +34,9 @@
                             <a href="{{route('s.ccvil')}}">Construção Civil</a>
                             <a href="{{route('s.feiras-eventos')}}">Feiras/Eventos/Stands</a>
                             <a href="{{route('s.embalagens')}}">Embalagens</a>
-                            <a href="#">Moveleiros</a>
-                            <a href="#">Pallets</a>
+                            <a href="{{route('s.moveleiro')}}">Moveleiros</a>
+                            <a href="{{route('s.pallets')}}">Pallets</a>
+                            <a href="{{route('s.ind_auto')}}">Indústria Automotiva</a>
                         </div>
                 </li>
                 <!--<li><a href="#">Blog</a></li>-->

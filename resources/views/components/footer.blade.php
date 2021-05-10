@@ -52,10 +52,13 @@
                             <a href="{{route('s.embalagens')}}">Embalagem</a>
                         </li>
                         <li>
-                            <a href="">Moveleiros </a>
+                            <a href="{{route('s.moveleiro')}}">Moveleiros </a>
                         </li>
                         <li>
-                            <a href="">Pallets </a>
+                            <a href="{{route('s.pallets')}}">Pallets </a>
+                        </li>
+                        <li>
+                            <a href="{{route('s.ind_auto')}}">Indústria Automotiva </a>
                         </li>
                     </ul>
                 </div>

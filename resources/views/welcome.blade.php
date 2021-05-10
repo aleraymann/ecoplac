@@ -36,7 +36,7 @@
             Conheça nossos principais produtos, e saiba porquê nossos clientes confiam em nós
         </div>
         <div class="container py-3">
-            <div class="row">
+            <div class="row principais">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
 
                     <div class="produto-img">

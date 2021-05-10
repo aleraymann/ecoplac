@@ -15,21 +15,21 @@
                     </div>
                     <div class="back-segmentos">
                         <div>
-                        <p class="sub-title_produtos">WBP é a sigla de Weather and Boil Proof, que em tradução livre
+                        <p class="sub-title_produtos grande">WBP é a sigla de Weather and Boil Proof, que em tradução livre
                                 significa “à
                                 prova
                                 de clima e fervura”. Basicamente, é um compensado que resiste às ações do tempo com o
                                 melhor desempenho,
                                 tornando a peça mais durável.
                             </p>
-                            <p class="sub-title_produtos">As faces do painel são reparadas para se obter melhor
+                            <p class="sub-title_produtos grande">As faces do painel são reparadas para se obter melhor
                                 acabamento e recebem uma
                                 aplicação de anilina (vermelha), para minimizar a penetração de umidade. Já as bordas da
                                 chapa passam
                                 pelo
                                 processo de impregnação com tinta impermeável.
                             </p>
-                            <p class="sub-title_produtos">O que torna este compensado tão resistente, é a cola de
+                            <p class="sub-title_produtos grande">O que torna este compensado tão resistente, é a cola de
                                 característica WBP. Ou
                                 seja, se a cola aplicada entre os laminados proporciona resistência à umidade,
                                 intempéries, vapor ou
@@ -265,5 +265,3 @@
 </section>
 
 @endsection
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="/js/app.js"></script>
