@@ -30,7 +30,7 @@ class Controller extends BaseController
          $message->replyTo($_POST['email'], $_POST['nome']);
          $message->to('aleraymann@gmail.com') ->subject($_POST['assunto'] . ' - Ecoplac');
          });
-        return redirect("/fale-conosco") ->with('message', 'Mensagem enviada com sucesso!');
+        return redirect("/fale-conosco")->with('success', 'Email enviado com Sucesso');
          }
         
       

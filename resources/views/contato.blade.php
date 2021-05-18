@@ -41,7 +41,7 @@
             </p>
             <p class="sub-title3">
                 <a type="button" class="btn btn-ecoplac btn-sm"
-                    href="https://www.google.com/maps/@-25.2360736,-50.6161148,3a,75y,108.52h,76.55t/data=!3m6!1e1!3m4!1sSuf9wgCzu4NEu_8P_l21vw!2e0!7i13312!8i6656"
+                    href="https://www.google.com.br/maps/place/Imbituva+-+PR/@-25.2321416,-50.6097495,17z/data=!4m5!3m4!1s0x94e8638d7e0d6aaf:0xc02fc4d0de90c9b6!8m2!3d-25.2292903!4d-50.6054398"
                     target="blank">Ver no Mapa</a>
             </p>
             <div class="title">

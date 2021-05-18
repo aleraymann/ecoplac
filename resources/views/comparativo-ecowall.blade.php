@@ -15,6 +15,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Comparativo Ecowall x Drywall</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>
@@ -111,7 +112,7 @@
             <div class="title">
                 <b> Outras curiosidades sobre a placa cimentícia Ecowall</b>
             </div>
-            <p class="sub-title4">
+            <p class="sub-title3">
                 Além deste comparativo com o Drywall, é importante citar as vantagens da placa cimentícia Ecowall em
                 comparação com a alvenaria. O painel Ecowall apresenta uma economia muito significativa, tanto de tempo
                 quanto de recursos, tornando o tempo de obra cerca de 40% mais rápido. Confira outras vantagens do

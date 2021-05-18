@@ -44,6 +44,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/pontalete.png)">
                     <p class="txt-front">Pontalete</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -56,6 +57,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/ripa.png)">
                     <p class="txt-front">Ripa</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>

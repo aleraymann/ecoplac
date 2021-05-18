@@ -35,7 +35,7 @@
                                         </p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>
@@ -54,7 +54,7 @@
                                             oferecendo durabilidade e uma ótima estética.</p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>
@@ -76,7 +76,7 @@
                                         </p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>
@@ -95,7 +95,7 @@
                                             durabilidade e resistência na fabricação da mobília, por um custo baixo.
                                             Conheças as opções mais indicadas para a indústria moveleira.</p>
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>
@@ -116,7 +116,7 @@
                                             decoração
                                             de casas.</p>
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>
@@ -132,7 +132,7 @@
                                         <h6>Indústria Automotiva</h6>
                                         <p></p>
                                     </div>
-                                    <label>Clique e conheça melhor</p>
+                                    <label class="clique">Clique e conheça melhor</p>
                                 </div>
                             </div>
                         </a>

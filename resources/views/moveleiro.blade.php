@@ -27,11 +27,13 @@
     <div class="conteudo">
         <div class="title">
             <b> Madeiras mais utilizadas na Indústria Moveleira</b>
+            
         </div>
         <div class="segmentos">
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-industrial.png)">
                     <p class="txt-front">Compensado Industrial</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -46,6 +48,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-pinus.png)">
                     <p class="txt-front">Compensado Pinus Embalagem</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -61,6 +64,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-parica.png)">
                     <p class="txt-front">Compensado Moveleiro Virola (Paricá)</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>

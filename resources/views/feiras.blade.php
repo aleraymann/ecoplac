@@ -38,6 +38,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png">
                     <p class="txt-front">Madeirite Plastificado</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -51,6 +52,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-antiderrapante.png)">
                     <p class="txt-front">Madeirite Plastificado Antiderrapante</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -65,6 +67,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png)">
                     <p class="txt-front">Madeirite Plastificado Extra</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -77,6 +80,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-parica.png)">
                     <p class="txt-front">Compensado Moveleiro Virola (Paricá)</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>

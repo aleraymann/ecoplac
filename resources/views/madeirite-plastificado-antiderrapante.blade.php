@@ -13,6 +13,7 @@ section class="content">
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">O que é o Madeirite Plastificado Antiderrapante?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>
@@ -38,6 +39,7 @@ section class="content">
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Onde o Madeirite Plastificado Antiderrapante é utilizado?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>

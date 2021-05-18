@@ -12,6 +12,7 @@
                 <a class="card-ecowall">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">O que é o Painel Ecowall?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div class="">
@@ -49,6 +50,7 @@
                 <a class="card-ecowall">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Vantagens do Painel Ecowall</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>

@@ -9,8 +9,9 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
     <title>Compensados Ecoplac | Compensados, Madeirites, Madeiras e Painel Wall</title>
 
@@ -20,9 +21,23 @@
     @include('components.menu')
     @yield('conteudo')
     @include('components.footer')
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="/js/app.js"></script>
+@if(Session::has('success'))
+        <script>
+            toastr.success("{!!Session::get('success')!!}");
+        </script>
+    @endif
+    @if(Session::has('error'))
+        <script>
+            toastr.error("{!!Session::get('error')!!}");
 
-</body>
+        </script>
+    @endif
+</html>

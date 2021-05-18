@@ -6,8 +6,7 @@
                 <h5 class="modal-title" id="">Mensagem de Contato</h5>
             </div>
             <div class="modal-body">
-                <span for="">* obrigatórios</span>
-                <form action="/contato" method="post" name="form" data-toggle="validator" role="form">
+                <form action="/contato" method="post" name="form" data-toggle="validator" role="form" id="form">
                     {{ csrf_field() }}
                     <div class="form-group">
                         <div class="row">

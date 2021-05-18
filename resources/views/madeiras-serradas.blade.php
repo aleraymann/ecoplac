@@ -13,6 +13,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Conheça as Madeiras Serradas Ecoplac</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>
@@ -33,6 +34,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Onde as Madeiras Serradas podem ser usadas?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>

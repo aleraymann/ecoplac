@@ -34,6 +34,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png">
                     <p class="txt-front">Madeirite Plastificado</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -46,8 +47,9 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-antiderrapante.png)">
                     <p class="txt-front">Madeirite Plastificado Antiderrapante</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
-                <div class="back-segmentos">
+                <div class="back-segmentos segmentos">
                     <div>
                         <p>Utilizado para pisos em geral, como carrocerias, trailers, pisos de eventos e arquibancadas,
                             bem como na Construção Civil</p>
@@ -59,6 +61,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-plastificado1.png)">
                     <p class="txt-front">Madeirite Plastificado Extra</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -72,6 +75,7 @@
             <div class="card-segmentos" href="{{ route('m.resinado-wbp') }}">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-resinado-wbp.png)">
                     <p class="txt-front">Madeirite Resinado (WBP)</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -85,6 +89,7 @@
             <div class="card-segmentos" href="{{ route('m.resinado-mr') }}">
                 <div class="front-segmentos" style="background-image: url(/img/madeirite-resinado-mr.png)">
                     <p class="txt-front">Madeirite Resinado MDR</p>
+                    <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -98,6 +103,7 @@
             <div class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/compen-pinus.png)">
                     <p class="txt-front">Compensado Pinus Embalagem</p>
+                      <i class="fas fa-sync-alt segmentos"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>

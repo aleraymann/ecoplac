@@ -81,3 +81,17 @@ $("#mensagem").blur(function () {
 
     }
 });
+
+//load no submit
+$("#form").submit(function(event) {
+    $("#submit").attr('disabled', 'disabled');
+    $("#submit").text('Enviando');
+    
+    swal({
+        title: "Aguarde!",
+        text: "Estamos encaminhando seu E-mail !",
+        icon: "info",
+        button: false,
+        closeOnClickOutside: false
+      });
+});

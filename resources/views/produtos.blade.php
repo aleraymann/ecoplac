@@ -36,7 +36,7 @@
                                             fabricação de lanchas, aeronaves e ônibus, além da construção civil.</p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</label>
+                                    <label class="clique">Clique e conheça melhor</label>
                                 </div>
                             </div>
                         </a>
@@ -58,7 +58,7 @@
                                             indústria moveleira, de embalagens, etc.</p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</label>
+                                    <label class="clique">Clique e conheça melhor</label>
                                 </div>
                             </div>
                         </a>
@@ -80,7 +80,7 @@
                                             ser usadas para auxiliar no transporte rodoviário de cargas</p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</label>
+                                    <label class="clique">Clique e conheça melhor</label>
                                 </div>
                             </div>
                         </a>
@@ -102,7 +102,7 @@
                                             Painel Wall é uma alternativa com um melhor custo benefício ao Dry Wall.</p>
 
                                     </div>
-                                    <label>Clique e conheça melhor</label>
+                                    <label class="clique">Clique e conheça melhor</label>
                                 </div>
                             </div>
                         </a>

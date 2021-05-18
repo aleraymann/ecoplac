@@ -12,6 +12,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">O que é o Madeirite Plastificado Extra?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>
@@ -37,6 +38,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Onde o Madeirite Plastificado Extra é utilizado?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>

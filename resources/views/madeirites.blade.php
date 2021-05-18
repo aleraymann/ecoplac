@@ -11,9 +11,13 @@
         <div class="conteudo">
             <div class="segmentos">
                 <a class="card-segmentos">
+               
                     <div class="front-segmentos">
+                  
                         <p class="txt-front-oque">O que é o Madeirite?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
+                   
                     <div class="back-segmentos">
                         <div>
                             <p class="sub-title_produtos">A Ecoplac oferece uma ampla variedade de produtos, que atendem
@@ -32,6 +36,7 @@
                 <a class="card-segmentos">
                     <div class="front-segmentos">
                         <p class="txt-front-oque">Onde o Madeirite pode ser usado?</p>
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                     <div class="back-segmentos">
                         <div>

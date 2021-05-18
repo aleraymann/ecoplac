@@ -44,6 +44,7 @@
             <a class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/responsabilidade.jpg">
                     <p class="txt-front-sobre">Responsabilidade Ambiental</p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -57,6 +58,7 @@
                 <div class="front-segmentos" style="background-image: url(/img/madeira-escura.jpg)">
                     <p class="txt-front-sobre">Madeiras com o mais alto padrão de qualidade
                     </p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -69,6 +71,7 @@
             <a class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/variedade.jpg)">
                     <p class="txt-front-sobre">Variedade</p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -81,6 +84,7 @@
             <a class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/caminhao.jpg)">
                     <p class="txt-front-sobre">Transporte próprio</p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -92,6 +96,7 @@
             <a class="card-segmentos">
                 <div class="front-segmentos" style="background-image: url(/img/atendimento.jpg)">
                     <p class="txt-front-sobre">Atendimento personalizado</p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>
@@ -104,6 +109,7 @@
                 <div class="front-segmentos" style="background-image: url(/img/pagamento.jpg)">
                     <p class="txt-front-sobre">Facilidade no pagamento
                     </p>
+                    <i class="fas fa-sync-alt sobre"></i>
                 </div>
                 <div class="back-segmentos">
                     <div>

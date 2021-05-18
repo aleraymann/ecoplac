@@ -86,6 +86,9 @@ section.content {
     padding: 0;
     font-size: 1.1em;
 }
+p.sub-title_produtos.grande {
+    font-size: 1.2rem !important;
+}
 
 @media(max-width:768px) {
     .responsive-bar {
@@ -99,6 +102,9 @@ section.content {
         padding: 5px 20px;
         box-sizing: border-box;
         z-index: 1;
+    }
+    p.sub-title_produtos.grande {
+        font-size: 1.2rem !important;
     }
 
     .responsive-bar .logo img {
@@ -183,20 +189,52 @@ section.content {
         text-align: center !important;
     }
 
-    .sub-title_produtos.grande{
-        font-size: 1.2rem !important;
+   
 
-    }
     a.email {
-      margin-left: -50px;
-      font-size: 18px;
-  }
-  .principais {
-    margin-right: auto;
-    margin-left: 50px;
+        margin-left: -50px;
+        font-size: 18px;
+    }
+
+    .principais {
+        margin-right: auto;
+        margin-left: 50px;
+    }
 }
+.clique{
+    cursor: pointer;
 }
 
+i.fas.fa-sync-alt {
+    font-size: 25px;
+    color: #585858;
+    position: relative;
+    display: block;
+    margin-top: -340px;
+}
+i.fas.fa-sync-alt.segmentos {
+    font-size: 25px;
+    color: rgb(182, 182, 182);
+    position: relative;
+    display: block;
+    margin-top: -340px;
+    margin-right: -10px;
+}
+i.fas.fa-sync-alt.sobre {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    display: block;
+    margin-top: -340px;
+    margin-right: -250px;
+}
+.panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #382b2a !important;
+    color: white;
+    text-decoration: none;
+}
 .btn-whatsapp-pulse {
     background: #25d366;
     color: white;
@@ -525,6 +563,7 @@ a.dropbtn {
     font-size: 20px;
     margin-bottom: 40px;
     color: black;
+    text-transform: uppercase;
 }
 
 
@@ -623,7 +662,7 @@ a.dropbtn {
 }
 
 .sub-title4 {
-    text-align: center;
+    text-align: left;
     font-size: 1.8rem;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -1131,6 +1170,7 @@ li {
 p.txt-front {
     margin-top: -304px !important;
     color: black;
+    width: 100%;
 }
 
 p.txt-front-sobre {
