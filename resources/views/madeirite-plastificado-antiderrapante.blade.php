@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('conteudo')
-section class="content">
 <section class="content">
 <div class="item">
     <img src="/img/ecoplac_banner_eco.jpg" alt="" style="width:100%;">

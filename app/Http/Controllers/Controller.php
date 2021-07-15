@@ -28,7 +28,8 @@ class Controller extends BaseController
          Mail::send('emails.contato', $data, function($message) {
          $message->from( $_POST['email'], $_POST['nome']);
          $message->replyTo($_POST['email'], $_POST['nome']);
-         $message->to('aleraymann@gmail.com') ->subject($_POST['assunto'] . ' - Ecoplac');
+         //$message->to('aleraymann@gmail.com') ->subject($_POST['assunto'] . ' - Ecoplac');
+         $message->to('comercial@compensadosecoplac.com.br') ->subject($_POST['assunto'] . ' - Ecoplac');
          });
         return redirect("/fale-conosco")->with('success', 'Email enviado com Sucesso');
          }

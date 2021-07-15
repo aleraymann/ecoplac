@@ -126,12 +126,5 @@
     </div>
 </div>
 </section>
-<section class="content">
-<div class="conteudo">
-    <div class="title3">Links Úteis</div>
-    <p class="sub-title2">Tenha acesso às melhores opções de financiamento para adquirir nossos produtos.</p>
-    <img src="/img/links-uteis.png" alt="" class="img-links">
-<div>
-</section>
 
 @endsection
